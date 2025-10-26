@@ -1,0 +1,6 @@
+2025-10-25 12:19:15,547 - market_intel_agent - INFO - Starting Market Intelligence Research Agent with idea: AI chatbots
+2025-10-25 12:19:15,572 - market_intel_agent - INFO - Configuration loaded successfully
+2025-10-25 12:19:15,574 - market_intel_agent - INFO - API keys loaded successfully
+2025-10-25 12:19:15,574 - market_intel_agent - INFO - Testing WebSearchTool with Serper...
+2025-10-25 12:19:16,683 - market_intel_agent - INFO - Serper search results for 'latest trends in AI': []
+2025-10-25 12:19:16,687 - market_intel_agent - INFO - Starting reasoning loop...

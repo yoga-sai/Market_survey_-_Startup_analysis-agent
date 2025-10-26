@@ -1,0 +1,22 @@
+# API Keys Configuration for Market Intelligence Research Agent
+# IMPORTANT: Replace placeholder values with actual API keys
+# DO NOT commit this file with real API keys to version control
+
+# OpenAI API
+openai:
+  api_key: "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"
+
+# Brave Search API
+brave:
+  api_key: "YOUR_BRAVE_API_KEY"
+
+# Bing Search API
+bing:
+  api_key: "YOUR_BING_API_KEY"
+
+# Serper API
+serper:
+  api_key: "51609cccdf6b1be81ce1871b3ff71f9fc56d188f35674659a09f4a1c1b89caf7"
+  
+# NewsAPI
+newsapi_key: "bced6fcf55304824aa8279d53ed31334"

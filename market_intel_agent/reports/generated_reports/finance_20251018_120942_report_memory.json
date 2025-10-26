@@ -1,0 +1,20 @@
+{
+  "parsed_input": {
+    "core_idea": "We are building a fintech app for stock trading with AI-driven recommendations",
+    "domain": "finance",
+    "niche": "",
+    "key_features": [
+      "AI-driven recommendations"
+    ],
+    "target_audience": ""
+  },
+  "thoughts": [],
+  "actions": [],
+  "observations": [],
+  "collected_data": {
+    "competitors": [],
+    "funding_data": [],
+    "web_search_results": [],
+    "rag_results": []
+  }
+}

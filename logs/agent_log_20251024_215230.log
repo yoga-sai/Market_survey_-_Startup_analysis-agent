@@ -1,0 +1,2 @@
+2025-10-24 21:52:30,147 - market_intel_agent - INFO - Starting Market Intelligence Research Agent with idea: AI in healthcare
+2025-10-24 21:52:30,147 - market_intel_agent - ERROR - ERROR: Error loading configuration: [Errno 2] No such file or directory: 'configs/model_config.yaml'

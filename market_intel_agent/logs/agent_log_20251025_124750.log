@@ -1,0 +1,14 @@
+2025-10-25 12:47:50,610 - market_intel_agent - INFO - Starting Market Intelligence Research Agent with idea: AI chatbots
+2025-10-25 12:47:50,611 - market_intel_agent - INFO - Configuration loaded successfully
+2025-10-25 12:47:50,612 - market_intel_agent - ERROR - ERROR: Input parsing failed: Required field 'domain' is missing or empty. Using defaults.
+2025-10-25 12:47:50,613 - market_intel_agent - INFO - API keys loaded successfully
+2025-10-25 12:47:50,614 - market_intel_agent - INFO - Testing WebSearchTool with Serper...
+2025-10-25 12:47:51,561 - market_intel_agent - INFO - Serper search results for 'latest trends in AI': []
+2025-10-25 12:47:51,563 - market_intel_agent - INFO - Starting reasoning loop...
+2025-10-25 12:47:51,577 - market_intel_agent - INFO - Reasoning loop completed
+2025-10-25 12:47:51,577 - market_intel_agent - INFO - Synthesizing report...
+2025-10-25 12:47:51,578 - market_intel_agent - INFO - Report synthesis completed
+2025-10-25 12:47:51,578 - market_intel_agent - INFO - Formatting report...
+2025-10-25 12:47:51,586 - market_intel_agent - INFO - Reports generated successfully and saved to reports/generated_reports
+2025-10-25 12:47:51,587 - market_intel_agent - INFO - Markdown report: technology_20251025_124750_report.md
+2025-10-25 12:47:51,587 - market_intel_agent - INFO - HTML report: technology_20251025_124750_report.html

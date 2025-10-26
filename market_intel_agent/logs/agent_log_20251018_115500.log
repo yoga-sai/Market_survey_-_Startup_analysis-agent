@@ -1,0 +1,5 @@
+2025-10-18 11:55:00,561 - market_intel_agent - INFO - Starting Market Intelligence Research Agent with idea: We are building a fintech app for stock trading with AI-driven recommendations
+2025-10-18 11:55:00,581 - market_intel_agent - INFO - Configuration loaded successfully
+2025-10-18 11:55:00,583 - market_intel_agent - INFO - Parsing input...
+2025-10-18 11:55:00,583 - market_intel_agent - INFO - Parsed input: {'core_idea': 'We are building a fintech app for stock trading with AI-driven recommendations', 'domain': 'finance', 'niche': '', 'key_features': ['AI-driven recommendations'], 'target_audience': ''}
+2025-10-18 11:55:00,587 - market_intel_agent - INFO - API keys loaded successfully

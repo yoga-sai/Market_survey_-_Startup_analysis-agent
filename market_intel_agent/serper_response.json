@@ -1,0 +1,254 @@
+{
+  "search_metadata": {
+    "id": "68fba7ece171b9cce8ee2128",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/01e8631b5fc6815d/68fba7ece171b9cce8ee2128.json",
+    "pixel_position_endpoint": "https://serpapi.com/searches/01e8631b5fc6815d/68fba7ece171b9cce8ee2128.json_with_pixel_position",
+    "created_at": "2025-10-24 16:23:08 UTC",
+    "processed_at": "2025-10-24 16:23:08 UTC",
+    "google_url": "https://www.google.com/search?q=latest+trends+in+AI&oq=latest+trends+in+AI&num=5&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/01e8631b5fc6815d/68fba7ece171b9cce8ee2128.html",
+    "total_time_taken": 0.91
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "latest trends in AI",
+    "google_domain": "google.com",
+    "num": "5",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "latest trends in AI",
+    "total_results": 658000000,
+    "time_taken_displayed": 0.25,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "inline_images": [
+    {
+      "source": "https://masterofcode.com/blog/generative-ai-trends",
+      "thumbnail": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/102fd77bcae2ea6b11d89683960eb14a7f3d8f99a965343564af2fce117760f6.jpeg",
+      "original": "https://masterofcode.com/wp-content/uploads/2023/10/Generative-AI-Technology-Trends.png",
+      "title": "Top 10 Generative AI Trends: Latest Advancements & Developments",
+      "source_name": "Master of Code"
+    },
+    {
+      "source": "https://www.revechat.com/blog/ai-trends/",
+      "thumbnail": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/102fd77bcae2ea6b6590fc2bb62c15b93fd98eaee035c87a7aaf9dc9789ae78c.jpeg",
+      "original": "https://www.revechat.com/wp-content/uploads/2023/05/Top-10-business-AI-trends-2022-1024x653-1.jpg",
+      "title": "Top Artificial Intelligence (AI) Trends for 2025",
+      "source_name": "REVE Chat"
+    },
+    {
+      "source": "https://datasciencedojo.com/blog/ai-and-machine-learning-trends/",
+      "thumbnail": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/102fd77bcae2ea6b385a6f44476026e0e00c9733fcf92a60ef807964f07cd6e6.jpeg",
+      "original": "https://datasciencedojo.com/wp-content/uploads/emerging-AI-and-machine-learning-trends.png",
+      "title": "2023 emerging AI and Machine Learning trends | Data Science Dojo",
+      "source_name": "Data Science Dojo"
+    },
+    {
+      "source": "https://www.spaceo.ai/blog/top-ai-trends/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnlqT7l0Ah2jWRkfMuDwSNuD7OScq6R1UrtTb5MNnwqyp8gV1uH6wmAI0&s"
+    },
+    {
+      "source": "https://www.logikk.com/articles/2019-trends-in-ai/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqOP5UoeEPOlfbRtyvAVl36XPIzMdvjqjPGKSS-hkXv1PaMZZfALPdCo&s"
+    },
+    {
+      "source": "https://www.cloudflight.io/en/blog/ai-trends-2024/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLi-DRKK1b8B7bjc52e3xLUTwmcOT1l3QJZhMQv0o66WkiHX41094ow7s&s"
+    },
+    {
+      "source": "https://www.geeksforgeeks.org/blogs/top-5-trends-in-artificial-intelligence-that-may-dominate-2020s/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVAoAZLwqUSLA726Um3Us_oprbiY_lHe0B2H601s45_jKhEalyEWX0Y24&s"
+    },
+    {
+      "source": "https://www.jaroeducation.com/blog/future-of-artificial-intelligence/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV5xdnUJb65bPL5kWen1BsJISeXP27ecBTo0j4vzoMR7GVujZmbqFWrQM&s"
+    },
+    {
+      "source": "https://appinventiv.com/blog/ai-trends/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6lOU1G8SyPgpEW27ZbCGlUwY42xj9bJgtJLKUaxzoyjM_uqGostLaaHg&s"
+    }
+  ],
+  "inline_videos": [
+    {
+      "position": 1,
+      "title": "Top 15 New Technology Trends That Will Define 2026 [Part 2]",
+      "link": "https://www.youtube.com/watch?v=f-FyMY1LMwI",
+      "thumbnail": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/8d023e9cc5eb1389e7c38e8c63120d149f740c585cd3922f55bdebefafceb259.jpeg",
+      "channel": "AI Uncovered",
+      "duration": "13:03",
+      "platform": "YouTube"
+    },
+    {
+      "position": 2,
+      "title": "AI Trends for 2025",
+      "link": "https://www.youtube.com/watch?v=5zuF4Ys1eAw",
+      "thumbnail": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/8d023e9cc5eb138958667b8d2c7bec51f99940d114223871603d82f2d83ee664.jpeg",
+      "channel": "IBM Technology",
+      "duration": "7:32",
+      "platform": "YouTube"
+    },
+    {
+      "position": 3,
+      "title": "Top 10 AI Trends of 2025 (According to Industry Leaders)",
+      "link": "https://www.youtube.com/watch?v=YH4wP-ESLo4&vl=en",
+      "thumbnail": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/8d023e9cc5eb1389dcb06f8b629c58b8eed0aeaf1a2a0db63febeb60786fbe72.jpeg",
+      "channel": "AI Uncovered",
+      "duration": "13:22",
+      "platform": "YouTube"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "AI News | Latest AI News, Analysis & Events",
+      "link": "https://www.artificialintelligence-news.com/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.artificialintelligence-news.com/&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQFnoECBoQAQ",
+      "displayed_link": "https://www.artificialintelligence-news.com",
+      "favicon": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/a95169e8da660eebb6505632316b0dcc303fbbe154e6e02c8df719708b527cbd.png",
+      "snippet": "AI News reports on the latest artificial intelligence news and insights. Explore industry trends from the frontline of AI.",
+      "snippet_highlighted_words": [
+        "Explore industry trends"
+      ],
+      "source": "AI News"
+    },
+    {
+      "position": 2,
+      "title": "The Top Artificial Intelligence Trends",
+      "link": "https://www.ibm.com/think/insights/artificial-intelligence-trends",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ibm.com/think/insights/artificial-intelligence-trends&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQFnoECBwQAQ",
+      "displayed_link": "https://www.ibm.com › think › insights › artificial-intell...",
+      "favicon": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/a95169e8da660eebb6505632316b0dcc941e2d45104ed96cec4be7e8c3b96fa7.png",
+      "snippet": "AI benchmark saturation and diversification · Transcending transformers · Embodied AI and world models · Privacy vs. personalized AI · AI coworkers and emotional ...",
+      "snippet_highlighted_words": [
+        "AI benchmark saturation and diversification"
+      ],
+      "source": "IBM"
+    },
+    {
+      "position": 3,
+      "title": "6 AI trends you'll see more of in 2025",
+      "link": "https://news.microsoft.com/source/features/ai/6-ai-trends-youll-see-more-of-in-2025/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://news.microsoft.com/source/features/ai/6-ai-trends-youll-see-more-of-in-2025/&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQFnoECB4QAQ",
+      "displayed_link": "https://news.microsoft.com › source › features › 6-ai-tren...",
+      "favicon": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/a95169e8da660eebb6505632316b0dcc9a69b340f3fa267763936c79b3d7eb7c.png",
+      "date": "Dec 5, 2024",
+      "snippet": "In 2025, AI will evolve from a tool for work and home to an integral part of both. AI-powered agents will do more with greater autonomy and help simplify your ...",
+      "snippet_highlighted_words": [
+        "AI will evolve from a tool for work and home to an integral part of both"
+      ],
+      "source": "Microsoft Source"
+    },
+    {
+      "position": 4,
+      "title": "McKinsey technology trends outlook 2025",
+      "link": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-top-trends-in-tech",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-top-trends-in-tech&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQFnoECC8QAQ",
+      "displayed_link": "https://www.mckinsey.com › the-top-trends-in-tech",
+      "favicon": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/a95169e8da660eebb6505632316b0dcc57a88d6492eb853982f66e2cad602efb.jpeg",
+      "date": "Jul 22, 2025",
+      "snippet": "The economic potential of generative AI: The next productivity frontier · The rise of autonomous systems. · New human–machine collaboration models ...",
+      "snippet_highlighted_words": [
+        "AI",
+        "New"
+      ],
+      "source": "McKinsey & Company"
+    },
+    {
+      "position": 5,
+      "title": "5 AI Trends Shaping the Future of Public Sector in 2025",
+      "link": "https://cloud.google.com/blog/topics/public-sector/5-ai-trends-shaping-the-future-of-the-public-sector-in-2025",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://cloud.google.com/blog/topics/public-sector/5-ai-trends-shaping-the-future-of-the-public-sector-in-2025&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQFnoECC4QAQ",
+      "displayed_link": "https://cloud.google.com › blog › topics › 5-ai-trends-sh...",
+      "favicon": "https://serpapi.com/searches/68fba7ece171b9cce8ee2128/images/a95169e8da660eebb6505632316b0dcccd140962748ed15c61d65b08acf79773.png",
+      "date": "Feb 6, 2025",
+      "snippet": "Trend #1: Multimodal AI: Unleashing the power of context · Trend #2: AI agents: The evolution from chatbots to multi-agent systems · Trend #3: ...",
+      "snippet_highlighted_words": [
+        "Multimodal AI: Unleashing the power of context"
+      ],
+      "source": "Google Cloud"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Top 10 AI trends",
+      "link": "https://www.google.com/search?num=5&sca_esv=397f9cbb68429dfc&q=Top+10+AI+trends&sa=X&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ1QJ6BAgnEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=Top+10+AI+trends"
+    },
+    {
+      "block_position": 1,
+      "query": "Current trends in Artificial intelligence PDF",
+      "link": "https://www.google.com/search?num=5&sca_esv=397f9cbb68429dfc&q=Current+trends+in+Artificial+intelligence+PDF&sa=X&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ1QJ6BAgsEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=Current+trends+in+Artificial+intelligence+PDF"
+    },
+    {
+      "block_position": 1,
+      "query": "Artificial intelligence trends in business",
+      "link": "https://www.google.com/search?num=5&sca_esv=397f9cbb68429dfc&q=Artificial+intelligence+trends+in+business&sa=X&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ1QJ6BAgrEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=Artificial+intelligence+trends+in+business"
+    },
+    {
+      "block_position": 1,
+      "query": "Latest trends in AI 2025",
+      "link": "https://www.google.com/search?num=5&sca_esv=397f9cbb68429dfc&q=Latest+trends+in+AI+2025&sa=X&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ1QJ6BAgqEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=Latest+trends+in+AI+2025"
+    },
+    {
+      "block_position": 1,
+      "query": "AI trends website",
+      "link": "https://www.google.com/search?num=5&sca_esv=397f9cbb68429dfc&q=AI+trends+website&sa=X&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ1QJ6BAgoEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=AI+trends+website"
+    },
+    {
+      "block_position": 1,
+      "query": "New AI trend on Instagram",
+      "link": "https://www.google.com/search?num=5&sca_esv=397f9cbb68429dfc&q=New+AI+trend+on+Instagram&sa=X&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ1QJ6BAgpEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=New+AI+trend+on+Instagram"
+    },
+    {
+      "block_position": 1,
+      "query": "AI news today live",
+      "link": "https://www.google.com/search?num=5&sca_esv=397f9cbb68429dfc&q=AI+news+today+live&sa=X&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ1QJ6BAglEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=AI+news+today+live"
+    },
+    {
+      "block_position": 1,
+      "query": "Latest AI technology news",
+      "link": "https://www.google.com/search?num=5&sca_esv=397f9cbb68429dfc&q=Latest+AI+technology+news&sa=X&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ1QJ6BAgmEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=Latest+AI+technology+news"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=5&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8NMDegQICxAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=5&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8tMDegQICxAE",
+      "3": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=10&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8tMDegQICxAG",
+      "4": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=15&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8tMDegQICxAI",
+      "5": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=20&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8tMDegQICxAK",
+      "6": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=25&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8tMDegQICxAM",
+      "7": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=30&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8tMDegQICxAO",
+      "8": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=35&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8tMDegQICxAQ",
+      "9": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=40&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8tMDegQICxAS",
+      "10": "https://www.google.com/search?q=latest+trends+in+AI&num=5&sca_esv=397f9cbb68429dfc&ei=7Kf7aPbIJZik1sQPh6eGqAM&start=45&sa=N&sstk=Af77f_dagKZHtMbrzXe2CpdJSDWxrDuwskjqSaGMTgDwy3qeEjwhylc4gMWj67rCUpddy2PyX9xAKtHtzVKnApjzmtk30l9B8RHqag&ved=2ahUKEwj27si4n72QAxUYkpUCHYeTATUQ8tMDegQICxAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=5",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=5",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=5",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=10",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=15",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=20",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=25",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=30",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=35",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=40",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&num=5&q=latest+trends+in+AI&start=45"
+    }
+  }
+}

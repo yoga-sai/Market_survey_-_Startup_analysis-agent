@@ -1,0 +1,41 @@
+# Model Configuration for Market Intelligence Research Agent
+
+# LLM Configuration
+llm:
+  provider: "openai"  # Options: openai, huggingface, local
+  model_name: "gpt-4"  # Model to use
+  temperature: 0.2    # Lower for more deterministic outputs
+  max_tokens: 1000    # Maximum tokens per response
+  top_p: 0.95         # Nucleus sampling parameter
+
+# RAG Configuration
+rag:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  vector_db: "faiss"  # Options: faiss, chroma, lancedb
+  chunk_size: 512     # Size of text chunks for embedding
+  chunk_overlap: 50   # Overlap between chunks
+  top_k: 5            # Number of results to retrieve
+
+# Web Search Configuration
+web_search:
+  engine: "brave"     # Options: brave, bing, serper
+  results_per_query: 5
+  timeout: 10         # Timeout in seconds
+
+# Data Fallback Configuration
+fallback:
+  use_fallback_websearch: true  # Enable automatic fallback to web search
+  fallback_confidence_threshold: 0.6  # Threshold to trigger fallback
+  max_fallback_attempts: 2  # Maximum number of fallback attempts per query
+
+# Agent Configuration
+agent:
+  max_iterations: 10  # Maximum reasoning loop iterations
+  confidence_threshold: 0.7  # Minimum confidence to stop reasoning
+  data_collection_targets:
+    competitors: 5    # Target number of competitors to find
+    funding_data: 5   # Target number of funding data points
+    web_results: 10   # Target number of web search results
+    rag_results: 8    # Target number of RAG results
+    news_results: 5   # Target number of news articles
+    finance_data: 3   # Target number of financial data points

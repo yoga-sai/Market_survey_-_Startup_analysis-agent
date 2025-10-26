@@ -1,0 +1,5 @@
+2025-10-24 21:56:58,638 - market_intel_agent - INFO - Starting Market Intelligence Research Agent with idea: AI in healthcare
+2025-10-24 21:56:58,640 - market_intel_agent - INFO - Configuration loaded successfully
+2025-10-24 21:56:58,640 - market_intel_agent - INFO - Parsing input...
+2025-10-24 21:56:58,641 - market_intel_agent - INFO - Parsed input: {'core_idea': 'AI in healthcare', 'domain': 'health', 'niche': '', 'key_features': [], 'target_audience': ''}
+2025-10-24 21:56:58,642 - market_intel_agent - INFO - API keys loaded successfully
