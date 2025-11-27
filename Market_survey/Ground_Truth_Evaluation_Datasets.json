@@ -1,0 +1,933 @@
+[
+  {
+    "query_id": "eval_gt_01",
+    "query": "A platform for seniors to find reliable local handymen for home repairs.",
+    "ground_truth": {
+      "competitors": ["SeniorConnect", "HomeWise"],
+      "funding_rounds": {
+        "main_startup": { "name": "SeniorFix", "latest_round": { "series": "Seed", "amount_raised": 1200000, "currency": "USD", "date": "2023-01-15" } },
+        "competitor_1": { "name": "SeniorConnect", "latest_round": { "series": "Seed", "amount_raised": 5500000, "currency": "USD", "date": "2021-07-21" } },
+        "competitor_2": { "name": "HomeWise", "latest_round": { "series": "Seed", "amount_raised": 6000000, "currency": "USD", "date": "2021-03-25" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses a clear and growing need for an aging population.", "Builds trust by vetting and verifying handymen.", "Creates a simple, accessible interface for a non-tech-savvy demographic."],
+        "weaknesses": ["Challenge of building a two-sided marketplace (finding both seniors and handymen).", "High customer acquisition cost in a fragmented local market.", "Dependence on local service quality which can be variable."],
+        "opportunities": ["Partnering with senior living communities and insurance companies.", "Expanding into other home services (e.g., cleaning, gardening).", "Creating a subscription model for regular maintenance."],
+        "threats": ["Competition from general service marketplaces like TaskRabbit.", "Economic downturns reducing discretionary spending on home repairs.", "Negative reviews from a single bad experience could damage reputation."]
+      },
+      "major_points": ["senior care", "home maintenance", "trust", "verified professionals", "aging in place", "two-sided marketplace", "local services"]
+    }
+  },
+  {
+    "query_id": "eval_gt_02",
+    "query": "An AI-powered tool that automatically writes and optimizes SQL database queries for developers.",
+    "ground_truth": {
+      "competitors": ["LexLogic", "ContractMind"],
+      "funding_rounds": {
+        "main_startup": { "name": "QueryGenius", "latest_round": { "series": "Seed", "amount_raised": 2800000, "currency": "USD", "date": "2023-05-20" } },
+        "competitor_1": { "name": "LexLogic", "latest_round": { "series": "Seed", "amount_raised": 5800000, "currency": "USD", "date": "2021-09-30" } },
+        "competitor_2": { "name": "ContractMind", "latest_round": { "series": "Seed", "amount_raised": 8200000, "currency": "USD", "date": "2021-10-11" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Solves a major pain point for developers (inefficient queries).", "Uses AI to provide performance optimizations.", "Integrates directly into developer workflows (IDE plugins)."],
+        "weaknesses": ["May not handle highly complex, niche queries well.", "Potential for generating incorrect or insecure queries.", "Requires large amounts of training data on diverse query structures."],
+        "opportunities": ["Expanding to NoSQL and other database languages.", "Offering a team collaboration and version control feature for queries.", "Integrating with data analytics platforms to provide query insights."],
+        "threats": ["Database providers (e.g., Oracle, Snowflake) building similar native features.", "Open-source AI models for code/text generation improving rapidly.", "Developer reluctance to trust AI-generated queries for critical systems."]
+      },
+      "major_points": ["AI for developers", "SQL optimization", "query performance", "developer tools", "productivity", "database management"]
+    }
+  },
+  {
+    "query_id": "eval_gt_03",
+    "query": "A service that uses drones to deliver prescription medication to rural areas on the same day.",
+    "ground_truth": {
+      "competitors": ["LogiStream", "AgriGrow Tech"],
+      "funding_rounds": {
+        "main_startup": { "name": "MedsFly", "latest_round": { "series": "Seed", "amount_raised": 4500000, "currency": "USD", "date": "2023-02-10" } },
+        "competitor_1": { "name": "LogiStream", "latest_round": { "series": "Seed", "amount_raised": 5500000, "currency": "USD", "date": "2020-07-14" } },
+        "competitor_2": { "name": "AgriGrow Tech", "latest_round": { "series": "Series A", "amount_raised": 20000000, "currency": "USD", "date": "2021-04-12" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Solves a critical access to medicine problem in underserved areas.", "Drastically faster than traditional mail-order or pharmacy delivery.", "High potential for B2B partnerships with pharmacies and insurers."],
+        "weaknesses": ["High regulatory hurdles for medical drone delivery.", "Significant initial capital investment for drone fleet.", "Limited payload capacity and weather dependency."],
+        "opportunities": ["Expanding to deliver other medical supplies and lab samples.", "Partnering with governments for public health emergencies.", "Integrating with telehealth platforms for seamless ordering."],
+        "threats": ["Strict aviation and medical delivery regulations.", "Public perception and safety concerns over drones.", "Competition from established courier services expanding to rural areas."]
+      },
+      "major_points": ["drone delivery", "rural healthcare", "prescription access", "logistics", "regulatory hurdles", "last-mile delivery"]
+    }
+  },
+  {
+    "query_id": "eval_gt_04",
+    "query": "A marketplace for farmers to buy and sell used, refurbished farming equipment.",
+    "ground_truth": {
+      "competitors": ["AgriGrow Tech", "Rooted Farms"],
+      "funding_rounds": {
+        "main_startup": { "name": "FarmTractor", "latest_round": { "series": "Seed", "amount_raised": 3200000, "currency": "USD", "date": "2023-04-05" } },
+        "competitor_1": { "name": "AgriGrow Tech", "latest_round": { "series": "Series A", "amount_raised": 20000000, "currency": "USD", "date": "2021-04-12" } },
+        "competitor_2": { "name": "Rooted Farms", "latest_round": { "series": "Seed", "amount_raised": 25000000, "currency": "USD", "date": "2022-02-08" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Makes expensive equipment more accessible to small farms.", "Promotes a circular economy in agriculture.", "Clear value proposition: cost savings for farmers."],
+        "weaknesses": ["Logistics of shipping heavy equipment is complex.", "Building trust in quality of refurbished items.", "Lower margins than new equipment sales."],
+        "opportunities": ["Offering equipment leasing and financing options.", "Expanding into international markets.", "Providing an inspection and verification service for a fee."],
+        "threats": ["Competition from large equipment makers with their own used divisions.", "Economic downturns reducing farm capital expenditure.", "Scams or fraudulent listings damaging platform reputation."]
+      },
+      "major_points": ["agriculture", "circular economy", "marketplace", "cost savings", "farm equipment", "sustainability"]
+    }
+  },
+  {
+    "query_id": "eval_gt_05",
+    "query": "An EdTech platform that uses VR to create immersive historical field trips for students.",
+    "ground_truth": {
+      "competitors": ["StemQuest", "KidLingo"],
+      "funding_rounds": {
+        "main_startup": { "name": "HistoryVR", "latest_round": { "series": "Seed", "amount_raised": 3800000, "currency": "USD", "date": "2023-06-01" } },
+        "competitor_1": { "name": "StemQuest", "latest_round": { "series": "Seed", "amount_raised": 4500000, "currency": "USD", "date": "2022-04-11" } },
+        "competitor_2": { "name": "KidLingo", "latest_round": { "series": "Seed", "amount_raised": 5500000, "currency": "USD", "date": "2022-01-18" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Highly engaging and memorable learning experience.", "Provides access to places and times that are impossible to visit.", "Differentiates from standard video-based learning."],
+        "weaknesses": ["Requires VR headsets, which are a cost barrier for schools.", "High content creation cost for high-quality historical simulations.", "Potential for motion sickness in some users."],
+        "opportunities": ["Partnering with museums and historical sites for official content.", "Creating a platform for users to generate and share their own VR field trips.", "Expanding from history to other subjects like science and geography."],
+        "threats": ["Rapid advancement of AR technology could make VR seem dated.", "Competition from established EdTech giants adding VR features.", "School budget cuts affecting spending on new technology."]
+      },
+      "major_points": ["VR education", "immersive learning", "historical sites", "student engagement", "EdTech", "curriculum"]
+    }
+  },
+  {
+    "query_id": "eval_gt_06",
+    "query": "A B2B SaaS that helps companies automate their ESG reporting and compliance.",
+    "ground_truth": {
+      "competitors": ["CarbonLedger", "ImpactScore"],
+      "funding_rounds": {
+        "main_startup": { "name": "ESG Comply", "latest_round": { "series": "Seed", "amount_raised": 5100000, "currency": "USD", "date": "2023-03-12" } },
+        "competitor_1": { "name": "CarbonLedger", "latest_round": { "series": "Seed", "amount_raised": 7200000, "currency": "USD", "date": "2022-01-18" } },
+        "competitor_2": { "name": "ImpactScore", "latest_round": { "series": "Seed", "amount_raised": 6200000, "currency": "USD", "date": "2021-09-28" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses a growing mandatory reporting requirement.", "Saves companies significant time and legal costs.", "SaaS model provides recurring revenue."],
+        "weaknesses": ["ESG standards are still evolving, requiring constant product updates.", "Competition from both startups and large financial data providers.", "Potential for inaccuracies in automated reporting."],
+        "opportunities": ["Providing ESG data analytics and improvement recommendations.", "Expanding to supply chain ESG tracking.", "Integrating with carbon credit marketplaces."],
+        "threats": ["Regulatory changes creating complexity.", "Large corporations building their own internal solutions.", "Greenwashing accusations if data is not robust."]
+      },
+      "major_points": ["ESG", "sustainability", "regulatory compliance", "reporting automation", "SaaS", "data analytics"]
+    }
+  },
+  {
+    "query_id": "eval_gt_07",
+    "query": "A cybersecurity tool that uses behavioral biometrics to replace passwords for secure login.",
+    "ground_truth": {
+      "competitors": ["ZeroTrust Access", "CloudSecure"],
+      "funding_rounds": {
+        "main_startup": { "name": "BehavPass", "latest_round": { "series": "Seed", "amount_raised": 6500000, "currency": "USD", "date": "2023-07-18" } },
+        "competitor_1": { "name": "ZeroTrust Access", "latest_round": { "series": "Seed", "amount_raised": 6700000, "currency": "USD", "date": "2021-03-11" } },
+        "competitor_2": { "name": "CloudSecure", "latest_round": { "series": "Seed", "amount_raised": 6100000, "currency": "USD", "date": "2021-02-18" } }
+      },
+      "swot_analysis": {
+        "strengths": ["More secure than passwords, resistant to phishing.", "Frictionless user experience once set up.", "Leverages sensors already present in modern devices (keyboard, mouse)."],
+        "weaknesses": ["Privacy concerns over collecting behavioral data.", "Can be frustrating if user's behavior changes (e.g., injury).", "Requires hardware integration on all devices a user wants to access."],
+        "opportunities": ["Integrating with password managers for a hybrid model.", "Expanding to physical access control (offices, data centers).", "Providing risk scoring based on login patterns."],
+        "threats": ["Competition from major OS providers (Apple, Microsoft, Google) building native solutions.", "Regulations on biometric data collection.", "Sophisticated deepfake attacks attempting to spoof behavior."]
+      },
+      "major_points": ["cybersecurity", "biometrics", "passwordless login", "user authentication", "behavioral analysis", "zero trust"]
+    }
+  },
+  {
+    "query_id": "eval_gt_08",
+    "query": "A subscription box for dog toys and healthy, organic dog treats.",
+    "ground_truth": {
+      "competitors": ["CurateBox", "Mycelium Foods"],
+      "funding_rounds": {
+        "main_startup": { "name": "PawBox", "latest_round": { "series": "Seed", "amount_raised": 1500000, "currency": "USD", "date": "2023-08-22" } },
+        "competitor_1": { "name": "CurateBox", "latest_round": { "series": "Seed", "amount_raised": 3500000, "currency": "USD", "date": "2021-10-12" } },
+        "competitor_2": { "name": "Mycelium Foods", "latest_round": { "series": "Series A", "amount_raised": 35000000, "currency": "USD", "date": "2022-06-14" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Taps into the massive 'pet humanization' trend.", "Recurring revenue model is predictable.", "High potential for community building and social media engagement."],
+        "weaknesses": ["High customer churn as owners try new things.", "Logistics of shipping perishable treats can be complex.", "Competition from large pet food companies entering the space."],
+        "opportunities": ["Offering customized boxes based on dog breed and age.", "Adding a line of cat-related products.", "Partnering with veterinarians and influencers."],
+        "threats": ["Economic recession reducing discretionary pet spending.", "Supply chain issues for organic ingredients.", "Negative PR if a treat causes health issues."]
+      },
+      "major_points": ["e-commerce", "subscription box", "pet care", "DTC", "organic", "community building"]
+    }
+  },
+  {
+    "query_id": "eval_gt_09",
+    "query": "A platform that uses AI to automate the process of applying for building permits.",
+    "ground_truth": {
+      "competitors": ["Propify", "BuildSmart"],
+      "funding_rounds": {
+        "main_startup": { "name": "PermitAI", "latest_round": { "series": "Seed", "amount_raised": 4200000, "currency": "USD", "date": "2023-05-30" } },
+        "competitor_1": { "name": "Propify", "latest_round": { "series": "Seed", "amount_raised": 4000000, "currency": "USD", "date": "2020-10-20" } },
+        "competitor_2": { "name": "BuildSmart", "latest_round": { "series": "Seed", "amount_raised": 7200000, "currency": "USD", "date": "2021-01-11" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Drastically reduces time and paperwork for architects and builders.", "Uses AI to pre-emptively flag application errors.", "Standardizes a very fragmented and localized process."],
+        "weaknesses": ["Must navigate complex and varying municipal regulations.", "High liability if AI makes a mistake on a permit application.", "Resistance from traditional permit offices and workers."],
+        "opportunities": ["Expanding to other types of permits (environmental, business).", "Providing data analytics on construction trends to municipalities.", "Offering a 'permit-as-a-service' for large developers."],
+        "threats": ["Government agencies developing their own portals.", "Legal challenges from zoning or NIMBY groups.", "Economic downturns slowing construction starts."]
+      },
+      "major_points": ["PropTech", "construction tech", "AI automation", "government tech", "bureaucracy", "regulatory compliance"]
+    }
+  },
+  {
+    "query_id": "eval_gt_10",
+    "query": "A service that provides plant-based, ready-to-cook meal kits for busy families.",
+    "ground_truth": {
+      "competitors": ["Mycelium Foods", "DairyFree Labs"],
+      "funding_rounds": {
+        "main_startup": { "name": "PlantPlate", "latest_round": { "series": "Seed", "amount_raised": 5800000, "currency": "USD", "date": "2023-09-14" } },
+        "competitor_1": { "name": "Mycelium Foods", "latest_round": { "series": "Series A", "amount_raised": 35000000, "currency": "USD", "date": "2022-06-14" } },
+        "competitor_2": { "name": "DairyFree Labs", "latest_round": { "series": "Series A", "amount_raised": 40000000, "currency": "USD", "date": "2023-01-17" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Taps into the convenience of meal kits and the plant-based trend.", "Appeals to health-conscious and time-poor consumers.", "Reduces food waste compared to grocery shopping for a family."],
+        "weaknesses": ["Complex logistics and cold chain management.", "High competition in both meal kit and plant-based markets.", "Ingredient costs can be higher than traditional sources."],
+        "opportunities": ["Offering specialized kits (e.g., gluten-free, high-protein).", "Partnering with celebrity chefs and nutritionists.", "Expanding into a ready-to-eat line for grocery stores."],
+        "threats": ["Large food companies launching their own plant-based lines.", "Supply chain disruptions for fresh ingredients.", "Negative press if nutritional claims are inaccurate."]
+      },
+      "major_points": ["FoodTech", "plant-based", "meal kits", "DTC", "convenience", "health"]
+    }
+  },
+  {
+    "query_id": "eval_gt_11",
+    "query": "A fintech platform that provides instant cash back rewards for using a debit card.",
+    "ground_truth": {
+      "competitors": ["FinFlow", "WealthWise"],
+      "funding_rounds": {
+        "main_startup": { "name": "CashBacker", "latest_round": { "series": "Seed", "amount_raised": 2200000, "currency": "USD", "date": "2023-11-01" } },
+        "competitor_1": { "name": "FinFlow", "latest_round": { "series": "Series A", "amount_raised": 18000000, "currency": "USD", "date": "2023-04-05" } },
+        "competitor_2": { "name": "WealthWise", "latest_round": { "series": "Seed", "amount_raised": 4000000, "currency": "USD", "date": "2021-08-10" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Simple, compelling value proposition for users.", "Creates a sticky product through daily use.", "Generates revenue from interchange fees, not just subscriptions."],
+        "weaknesses": ["Low-margin, high-volume business model.", "Requires large user base to be profitable.", "Competition from neobanks and established banks offering rewards."],
+        "opportunities": ["Partnering with retailers for boosted rewards.", "Offering financial literacy tools within the app.", "Expanding to small business credit cards."],
+        "threats": ["Regulatory changes to debit card interchange fees.", "Users churning for better sign-up bonuses.", "Big tech companies (Apple, Google) becoming a primary payment method."]
+      },
+      "major_points": ["FinTech", "debit card", "rewards", "consumer finance", "neobank", "interchange fees"]
+    }
+  },
+  {
+    "query_id": "eval_gt_12",
+    "query": "An AI-powered diagnostic tool that helps doctors identify rare diseases from medical scans.",
+    "ground_truth": {
+      "competitors": ["FemCare Diagnostics", "BioDiscover AI"],
+      "funding_rounds": {
+        "main_startup": { "name": "RareDx AI", "latest_round": { "series": "Seed", "amount_raised": 8500000, "currency": "USD", "date": "2023-04-25" } },
+        "competitor_1": { "name": "FemCare Diagnostics", "latest_round": { "series": "Series A", "amount_raised": 22000000, "currency": "USD", "date": "2022-11-22" } },
+        "competitor_2": { "name": "BioDiscover AI", "latest_round": { "series": "Series A", "amount_raised": 45000000, "currency": "USD", "date": "2022-03-28" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses a critical, high-need area of medicine.", "Can significantly improve patient outcomes.", "Strong defensible IP around diagnostic algorithms."],
+        "weaknesses": ["Requires massive, high-quality datasets for training.", "Long and expensive clinical validation process.", "High liability for misdiagnoses."],
+        "opportunities": ["Expanding to other types of scans and diseases.", "Offering the platform as a service to hospitals.", "Partnering with pharmaceutical companies for drug trial matching."],
+        "threats": ["Regulatory hurdles for AI in medicine.", "Data privacy concerns (HIPAA).", "Competition from large medical device companies (e.g., GE, Siemens)."]
+      },
+      "major_points": ["HealthTech", "AI diagnostics", "rare diseases", "medical imaging", "clinical AI", "patient outcomes"]
+    }
+  },
+  {
+    "query_id": "eval_gt_13",
+    "query": "A mobile game that teaches children financial literacy through fun, story-based quests.",
+    "ground_truth": {
+      "competitors": ["EduNexus", "StemQuest"],
+      "funding_rounds": {
+        "main_startup": { "name": "FinQuest", "latest_round": { "series": "Seed", "amount_raised": 1800000, "currency": "USD", "date": "2023-02-28" } },
+        "competitor_1": { "name": "EduNexus", "latest_round": { "series": "Series A", "amount_raised": 12000000, "currency": "USD", "date": "2020-12-14" } },
+        "competitor_2": { "name": "StemQuest", "latest_round": { "series": "Seed", "amount_raised": 4500000, "currency": "USD", "date": "2022-04-11" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Gamification makes learning engaging for kids.", "Addresses a critical gap in traditional education.", "High potential for viral growth among parents and kids."],
+        "weaknesses":[ "Difficult to balance educational content with fun gameplay.", "High competition in the kids' app market.", "Monetization can be challenging without being 'pay-to-win'."],
+        "opportunities": ["Partnering with schools and financial institutions.", "Creating a physical line of toys and books.", "Expanding to teach other life skills like entrepreneurship."],
+        "threats": ["Concerns about screen time for children.", "Rapidly changing trends in children's entertainment.", "Large gaming companies could add educational modes."]
+      },
+      "major_points": ["EdTech", "FinTech for kids", "gamification", "mobile game", "financial literacy", "storytelling"]
+    }
+  },
+  {
+    "query_id": "eval_gt_14",
+    "query": "A service that provides on-demand, pop-up manufacturing labs for hardware startups.",
+    "ground_truth": {
+      "competitors": ["QuantumSight AI", "SynthoLabs"],
+      "funding_rounds": {
+        "main_startup": { "name": "MakerLabs", "latest_round": { "series": "Seed", "amount_raised": 7500000, "currency": "USD", "date": "2023-06-15" } },
+        "competitor_1": { "name": "QuantumSight AI", "latest_round": { "series": "Series A", "amount_raised": 25000000, "currency": "USD", "date": "2021-10-27" } },
+        "competitor_2": { "name": "SynthoLabs", "latest_round": { "series": "Seed", "amount_raised": 8500000, "currency": "USD", "date": "2021-09-14" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Lowers the barrier to entry for hardware innovation.", "Provides access to expensive equipment without capital expenditure.", "Creates a collaborative environment for hardware startups."],
+        "weaknesses": ["High operational costs for rent and staff.", "Challenge of managing diverse project needs.", "Dependence on the boom/bust cycle of hardware startups."],
+        "opportunities": ["Offering specialized labs (e.g., for biotech, robotics).", "Providing mentorship and connections to venture capital.", "Expanding to a global network of labs."],
+        "threats": ["Large corporations offering their own incubator spaces.", "Economic downturns reducing venture funding for hardware.", "Remote work reducing the need for physical spaces."]
+      },
+      "major_points": ["hardware", "manufacturing", "startup incubator", "venture services", "prototyping", "maker movement"]
+    }
+  },
+  {
+    "query_id": "eval_gt_15",
+    "query": "A marketplace that connects homeowners with vetted, solar panel installation companies.",
+    "ground_truth": {
+      "competitors": ["SolarSense", "CarbonLedger"],
+      "funding_rounds": {
+        "main_startup": { "name": "SolarMatch", "latest_round": { "series": "Seed", "amount_raised": 3300000, "currency": "USD", "date": "2023-08-01" } },
+        "competitor_1": { "name": "SolarSense", "latest_round": { "series": "Seed", "amount_raised": 9800000, "currency": "USD", "date": "2022-01-25" } },
+        "competitor_2": { "name": "CarbonLedger", "latest_round": { "series": "Seed", "amount_raised": 7200000, "currency": "USD", "date": "2022-01-18" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Builds trust by vetting installers.", "Simplifies a complex and confusing process for homeowners.", "Taps into the growing residential solar market."],
+        "weaknesses": ["Two-sided marketplace is hard to balance.", "Reliant on a high-ticket, low-frequency sale.", "Competition from large installation companies with their own sales force."],
+        "opportunities": ["Offering solar panel cleaning and maintenance services.", "Providing financing and PPA (Power Purchase Agreement) facilitation.", "Expanding into other home energy upgrades (batteries, insulation)."],
+        "threats": ["Changes in government subsidies or tax credits.", "Supply chain issues for solar panels.", "Public perception of solar installation sales tactics."]
+      },
+      "major_points": ["ClimateTech", "solar energy", "marketplace", "PropTech", "home services", "sustainability"]
+    }
+  },
+  {
+    "query_id": "eval_gt_16",
+    "query": "An AI platform that monitors an organization's entire cloud network for security misconfigurations.",
+    "ground_truth": {
+      "competitors": ["CloudSecure", "ZeroTrust Access"],
+      "funding_rounds": {
+        "main_startup": { "name": "CloudGuard AI", "latest_round": { "series": "Seed", "amount_raised": 9200000, "currency": "USD", "date": "2023-05-11" } },
+        "competitor_1": { "name": "CloudSecure", "latest_round": { "series": "Seed", "amount_raised": 6100000, "currency": "USD", "date": "2021-02-18" } },
+        "competitor_2": { "name": "ZeroTrust Access", "latest_round": { "series": "Seed", "amount_raised": 6700000, "currency": "USD", "date": "2021-03-11" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses a critical and growing security vulnerability.", "Automates a manual and error-prone process.", "Provides clear, actionable insights for security teams."],
+        "weaknesses": ["Can generate a high volume of alerts, leading to 'alert fatigue'.", "Complexity of multi-cloud environments.", "Potential for false positives that disrupt services."],
+        "opportunities": ["Integrating with automated remediation tools.", "Expanding from misconfigurations to threat detection.", "Offering compliance reporting for standards like CIS and NIST."],
+        "threats": ["Cloud providers (AWS, Azure) enhancing their native security tools.", "Sophisticated attackers finding new ways to exploit misconfigurations.", "Consolidation in the cybersecurity market."]
+      },
+      "major_points": ["cybersecurity", "cloud security", "CSPM", "AI for security", "automation", "threat detection"]
+    }
+  },
+  {
+    "query_id": "eval_gt_17",
+    "query": "A D2C brand that sells high-quality, sustainable, and ethically sourced coffee beans online.",
+    "ground_truth": {
+      "competitors": ["TrendSpotter AI", "SustainaPack"],
+      "funding_rounds": {
+        "main_startup": { "name": "EthicalBean", "latest_round": { "series": "Seed", "amount_raised": 800000, "currency": "USD", "date": "2023-10-19" } },
+        "competitor_1": { "name": "TrendSpotter AI", "latest_round": { "series": "Series A", "amount_raised": 16000000, "currency": "USD", "date": "2021-11-18" } },
+        "competitor_2": { "name": "SustainaPack", "latest_round": { "series": "Seed", "amount_raised": 11000000, "currency": "USD", "date": "2021-06-28" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Taps into the consumer desire for ethical and sustainable products.", "High-margin product with strong brand story.", "Direct-to-consumer model builds customer relationships."],
+        "weaknesses": ["Highly competitive market with many established players.", "Logistics and freshness of a perishable good.", "Building a brand from scratch is expensive and time-consuming."],
+        "opportunities": ["Offering subscription models for regular delivery.", "Creating content around coffee brewing and origins.", "Partnering with cafes and grocery stores."],
+        "threats": ["Volatility in coffee bean prices.", "Large coffee companies launching their own 'ethical' lines.", "Economic downturns reducing spending on premium goods."]
+      },
+      "major_points": ["e-commerce", "D2C", "sustainability", "ethical sourcing", "food and beverage", "coffee", "brand building"]
+    }
+  },
+  {
+    "query_id": "eval_gt_18",
+    "query": "A platform that helps real estate agents automate their social media marketing.",
+    "ground_truth": {
+      "competitors": ["PropIQ", "HomeWise"],
+      "funding_rounds": {
+        "main_startup": { "name": "AgentBoost", "latest_round": { "series": "Seed", "amount_raised": 2100000, "currency": "USD", "date": "2023-07-25" } },
+        "competitor_1": { "name": "PropIQ", "latest_round": { "series": "Seed", "amount_raised": 6300000, "currency": "USD", "date": "2020-03-11" } },
+        "competitor_2": { "name": "HomeWise", "latest_round": { "series": "Seed", "amount_raised": 6000000, "currency": "USD", "date": "2021-03-25" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Saves agents a significant amount of time.", "Uses AI to find optimal posting times and content.", "Provides clear analytics on lead generation from social media."],
+        "weaknesses": ["Real estate marketing is highly personal and hard to automate.", "Risk of generating generic or off-brand content.", "Dependence on social media platform algorithm changes."],
+        "opportunities": ["Expanding to other marketing channels (email, SMS).", "Offering lead qualification and nurturing features.", "Integrating with CRM and MLS systems."],
+        "threats": ["Social media platforms launching their own real estate tools.", "Agents preferring to manage their own 'personal brand'.", "Data privacy regulations (e.g., GDPR)."]
+      },
+      "major_points": ["PropTech", "marketing tech", "real estate", "social media automation", "AI for marketing", "lead generation"]
+    }
+  },
+  {
+    "query_id": "eval_gt_19",
+    "query": "A service that uses insects to create high-protein, sustainable animal feed.",
+    "ground_truth": {
+      "competitors": ["AgriGrow Tech", "SweetLeaf"],
+      "funding_rounds": {
+        "main_startup": { "name": "InsectFeed", "latest_round": { "series": "Seed", "amount_raised": 4100000, "currency": "USD", "date": "2023-09-05" } },
+        "competitor_1": { "name": "AgriGrow Tech", "latest_round": { "series": "Series A", "amount_raised": 20000000, "currency": "USD", "date": "2021-04-12" } },
+        "competitor_2": { "name": "SweetLeaf", "latest_round": { "series": "Seed", "amount_raised": 18000000, "currency": "USD", "date": "2020-08-19" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Highly sustainable and low-resource protein source.", "Addresses the growing cost of traditional animal feed (soy, fishmeal).", "Potential to create a circular economy from food waste."],
+        "weaknesses": ["Regulatory hurdles for using insects in feed.", "Consumer and farmer perception ('yuck' factor).", "Scaling up insect farming can be complex."],
+        "opportunities": ["Partnering with large agricultural corporations (e.g., Cargill).", "Expanding into direct-to-consumer pet food market.", "Developing specific protein profiles for different animals."],
+        "threats": ["Competition from other alternative protein sources (lab-grown, algae).", "Disease outbreaks in insect farms.", "Large feed producers lobbying against insect-based ingredients."]
+      },
+      "major_points": ["AgriTech", "FoodTech", "alternative protein", "insect farming", "sustainability", "animal feed"]
+    }
+  },
+  {
+    "query_id": "eval_gt_20",
+    "query": "A satellite network to provide global, low-latency internet for autonomous vehicles.",
+    "ground_truth": {
+      "competitors": ["Orbital Comms", "IoT SatConnect"],
+      "funding_rounds": {
+        "main_startup": { "name": "AutoLink Sat", "latest_round": { "series": "Seed", "amount_raised": 12000000, "currency": "USD", "date": "2023-04-12" } },
+        "competitor_1": { "name": "Orbital Comms", "latest_round": { "series": "Series A", "amount_raised": 85000000, "currency": "USD", "date": "2022-09-01" } },
+        "competitor_2": { "name": "IoT SatConnect", "latest_round": { "series": "Seed", "amount_raised": 15000000, "currency": "USD", "date": "2021-09-21" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses a critical need for the autonomous vehicle industry.", "Specialized network can be optimized for low latency and high reliability.", "B2B model with high-value contracts."],
+        "weaknesses": ["Extremely high capital expenditure to build and launch satellites.", "Long development and regulatory timeline.", "Competition from terrestrial 5G/6G buildout."],
+        "opportunities": ["Partnering with car manufacturers for direct integration.", "Expanding to other high-reliability sectors (aviation, maritime).", "Selling network capacity to other industries."],
+        "threats": ["Technological risk of launch failure.", "Regulatory challenges in getting spectrum rights globally.", "Geopolitical issues affecting satellite deployment."]
+      },
+      "major_points": ["SpaceTech", "satellite internet", "autonomous vehicles", "V2X", "low-latency", "connectivity"]
+    }
+  },
+  {
+    "query_id": "eval_gt_21",
+    "query": "A B2B platform that allows companies to easily offset their carbon footprint by funding reforestation projects.",
+    "ground_truth": {
+      "competitors": ["CarbonCapture Solutions", "CarbonLedger"],
+      "funding_rounds": {
+        "main_startup": { "name": "ForestFund", "latest_round": { "series": "Seed", "amount_raised": 5600000, "currency": "USD", "date": "2023-03-08" } },
+        "competitor_1": { "name": "CarbonCapture Solutions", "latest_round": { "series": "Series A", "amount_raised": 50000000, "currency": "USD", "date": "2022-05-10" } },
+        "competitor_2": { "name": "CarbonLedger", "latest_round": { "series": "Seed", "amount_raised": 7200000, "currency": "USD", "date": "2022-01-18" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Simple, tangible way for companies to act on sustainability.", "High demand for high-quality, verifiable carbon credits.", "Creates positive PR for participating companies."],
+        "weaknesses": ["Difficulty in verifying the permanence of reforestation projects.", "Potential for 'greenwashing' if projects are not well-managed.", "Competition from many different types of carbon offset projects."],
+        "opportunities": ["Using satellite imagery to monitor forest growth.", "Offering a marketplace for different types of carbon removal projects.", "Integrating with ESG reporting platforms."],
+        "threats": ["Changes in carbon accounting standards.", "Reputational risk if a funded project fails.", "Companies choosing to reduce emissions internally rather than offsetting."]
+      },
+      "major_points": ["ClimateTech", "carbon offsets", "reforestation", "ESG", "sustainability", "marketplace"]
+    }
+  },
+  {
+    "query_id": "eval_gt_22",
+    "query": "A digital platform for managing and tracking personal vaccination records.",
+    "ground_truth": {
+      "competitors": ["ChronicCare Co.", "FemCare Diagnostics"],
+      "funding_rounds": {
+        "main_startup": { "name": "VaxiPass", "latest_round": { "series": "Seed", "amount_raised": 2500000, "currency": "USD", "date": "2023-01-30" } },
+        "competitor_1": { "name": "ChronicCare Co.", "latest_round": { "series": "Seed", "amount_raised": 5500000, "currency": "USD", "date": "2022-01-05" } },
+        "competitor_2": { "name": "FemCare Diagnostics", "latest_round": { "series": "Series A", "amount_raised": 22000000, "currency": "USD", "date": "2022-11-22" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Solves a real problem for individuals and families.", "Potentially integrates with travel and school systems.", "High utility, especially post-pandemic."],
+        "weaknesses": ["Major data privacy and security concerns.", "Hesitancy from governments to adopt a digital standard.", "Competition from established healthcare record systems (Epic, Cerner)."],
+        "opportunities": ["Adding features for travel medicine recommendations.", "Partnering with pharmacies for appointment scheduling.", "Becoming a platform for public health announcements."],
+        "threats": ["Government-sponsored digital ID/health passport systems.", "Data breaches causing a loss of public trust.", "Regulation requiring data to be stored in specific formats."]
+      },
+      "major_points": ["HealthTech", "digital health records", "vaccinations", "patient data", "privacy", "public health"]
+    }
+  },
+  {
+    "query_id": "eval_gt_23",
+    "query": "An online platform that connects freelance tutors with students for language and music lessons.",
+    "ground_truth": {
+      "competitors": ["LinguaLive", "SkillForge"],
+      "funding_rounds": {
+        "main_startup": { "name": "TutorLink", "latest_round": { "series": "Seed", "amount_raised": 1300000, "currency": "USD", "date": "2023-06-20" } },
+        "competitor_1": { "name": "LinguaLive", "latest_round": { "series": "Seed", "amount_raised": 3000000, "currency": "USD", "date": "2022-03-15" } },
+        "competitor_2": { "name": "SkillForge", "latest_round": { "series": "Seed", "amount_raised": 4500000, "currency": "USD", "date": "2020-09-01" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Provides access to specialized skills not found locally.", "Flexible work for tutors.", "Potentially more affordable than traditional tutoring centers."],
+        "weaknesses": ["Two-sided marketplace challenge.", "Quality control of tutors is difficult.", "High competition from general freelance platforms."],
+        "opportunities": ["Offering a curriculum and standardized testing.", "Providing tools for tutors to manage their business.", "Expanding into corporate training and development."],
+        "threats": ["Platform becoming a commodity and competing on price.", "Tutors and students connecting directly to avoid fees.", "Regulations on background checks for tutors."]
+      },
+      "major_points": ["EdTech", "marketplace", "freelance", "tutoring", "online learning", "skills training"]
+    }
+  },
+  {
+    "query_id": "eval_gt_24",
+    "query": "A cybersecurity firm that specializes in protecting industrial control systems (ICS) from cyberattacks.",
+    "ground_truth": {
+      "competitors": ["CyberShield AI", "APIFortify"],
+      "funding_rounds": {
+        "main_startup": { "name": "ICS Guard", "latest_round": { "series": "Seed", "amount_raised": 7800000, "currency": "USD", "date": "2023-02-16" } },
+        "competitor_1": { "name": "CyberShield AI", "latest_round": { "series": "Series A", "amount_raised": 30000000, "currency": "USD", "date": "2021-07-21" } },
+        "competitor_2": { "name": "APIFortify", "latest_round": { "series": "Seed", "amount_raised": 12500000, "currency": "USD", "date": "2022-10-26" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses a critical national security infrastructure.", "Highly specialized with deep domain expertise.", "Customers have high stakes and low price sensitivity."],
+        "weaknesses": ["Slow sales cycles in industrial sector.", "Requires legacy system knowledge and integration.", "Potential for catastrophic consequences from a single failure."],
+        "opportunities": ["Expanding to offer 'ICS as a Service' for monitoring.", "Partnering with hardware OEMs.", "Providing threat intelligence feeds to governments."],
+        "threats": ["State-sponsored attackers with immense resources.", "Accidental disruption of critical infrastructure by the security tool itself.", "Increased connectivity of ICS creating more attack vectors."]
+      },
+      "major_points": ["cybersecurity", "industrial control systems", "ICS", "OT security", "critical infrastructure", "threat detection"]
+    }
+  },
+  {
+    "query_id": "eval_gt_25",
+    "query": "A subscription box for science and engineering-themed projects for kids and teens.",
+    "ground_truth": {
+      "competitors": ["StemQuest", "KidLingo"],
+      "funding_rounds": {
+        "main_startup": { "name": "SciBox", "latest_round": { "series": "Seed", "amount_raised": 2900000, "currency": "USD", "date": "2023-08-11" } },
+        "competitor_1": { "name": "StemQuest", "latest_round": { "series": "Seed", "amount_raised": 4500000, "currency": "USD", "date": "2022-04-11" } },
+        "competitor_2": { "name": "KidLingo", "latest_round": { "series": "Seed", "amount_raised": 5500000, "currency": "USD", "date": "2022-01-18" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Highly engaging and educational content.", "Encourages interest in STEM fields.", "Recurring revenue model is predictable."],
+        "weaknesses": ["High cost of sourcing and shipping project materials.", "Potential safety issues with some projects.", "Competition from general toy and craft companies."],
+        "opportunities": ["Offering digital add-ons (e.g., AR instructions).", "Partnering with schools and STEM educators.", "Creating a community for kids to share their projects."],
+        "threats": ["Screen time concerns for parents.", "Economic downturns affecting discretionary spending.", "Shifting trends in children's interests."]
+      },
+      "major_points": ["EdTech", "STEM", "subscription box", "kids", "project-based learning", "hands-on activities"]
+    }
+  },
+  {
+    "query_id": "eval_gt_26",
+    "query": "A fintech that uses AI to detect and prevent financial fraud in real-time.",
+    "ground_truth": {
+      "competitors": ["CreditSense AI", "Regulix"],
+      "funding_rounds": {
+        "main_startup": { "name": "FraudBlock AI", "latest_round": { "series": "Seed", "amount_raised": 8800000, "currency": "USD", "date": "2023-05-03" } },
+        "competitor_1": { "name": "CreditSense AI", "latest_round": { "series": "Series A", "amount_raised": 10000000, "currency": "USD", "date": "2022-01-20" } },
+        "competitor_2": { "name": "Regulix", "latest_round": { "series": "Seed", "amount_raised": 6800000, "currency": "USD", "date": "2021-05-11" } }
+      },
+      "swot_analysis": {
+        "strengths": ["AI can identify complex fraud patterns humans miss.", "Real-time prevention saves money for clients.", "High demand as online fraud grows more sophisticated."],
+        "weaknesses": ["High false positive rate can frustrate users.", "Requires massive amounts of data to train effectively.", "Fraudsters constantly adapting their methods."],
+        "opportunities": ["Expanding to other fraud types (e.g., insurance, identity).", "Offering fraud intelligence reports to clients.", "Integrating with blockchain for immutable transaction records."],
+        "threats": ["Regulations on AI use in financial decisions.", "Competition from large banks' internal AI teams.", "Adversarial attacks designed to fool the AI model."]
+      },
+      "major_points": ["FinTech", "AI", "fraud detection", "risk management", "security", "real-time analysis"]
+    }
+  },
+  {
+    "query_id": "eval_gt_27",
+    "query": "A company that creates biodegradable packaging from seaweed.",
+    "ground_truth": {
+      "competitors": ["SustainaPack", "Circular Materials"],
+      "funding_rounds": {
+        "main_startup": { "name": "SeaPack", "latest_round": { "series": "Seed", "amount_raised": 6400000, "currency": "USD", "date": "2023-10-02" } },
+        "competitor_1": { "name": "SustainaPack", "latest_round": { "series": "Seed", "amount_raised": 11000000, "currency": "USD", "date": "2021-06-28" } },
+        "competitor_2": { "name": "Circular Materials", "latest_round": { "series": "Seed", "amount_raised": 11000000, "currency": "USD", "date": "2021-11-01" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Taps into massive demand for plastic alternatives.", "Seaweed is a fast-growing, sustainable resource.", "Biodegrades in marine environments, solving a key problem."],
+        "weaknesses": ["Scaling up seaweed farming can be challenging.", "Ensuring consistent quality and properties of the material.", "Competition from other bio-materials."],
+        "opportunities": ["Partnering with large CPG companies for pilot programs.", "Developing different types of packaging (rigid, flexible).", "Creating a brand around 'ocean-positive' packaging."],
+        "threats": ["Large chemical companies creating their own 'green' plastics.", "Volatility in seaweed harvests due to climate change.", "Regulatory approval for food contact materials."]
+      },
+      "major_points": ["CleanTech", "sustainable materials", "packaging", "seaweed", "biodegradable", "circular economy"]
+    }
+  },
+  {
+    "query_id": "eval_gt_28",
+    "query": "A platform that uses AI to help small businesses automate their accounting and bookkeeping.",
+    "ground_truth": {
+      "competitors": ["Capify", "ImpactScore"],
+      "funding_rounds": {
+        "main_startup": { "name": "Booksy AI", "latest_round": { "series": "Seed", "amount_raised": 3600000, "currency": "USD", "date": "2023-07-14" } },
+        "competitor_1": { "name": "Capify", "latest_round": { "series": "Series A", "amount_raised": 35000000, "currency": "USD", "date": "2022-06-21" } },
+        "competitor_2": { "name": "ImpactScore", "latest_round": { "series": "Seed", "amount_raised": 6200000, "currency": "USD", "date": "2021-09-28" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Saves small businesses significant time and money.", "Automates a tedious and error-prone process.", "Subscription model provides recurring revenue."],
+        "weaknesses": ["Competition from established players like QuickBooks and Xero.", "Liability for AI-generated accounting errors.", "Difficulty integrating with a wide range of business software."],
+        "opportunities": ["Offering CFO-as-a-service for higher-tier clients.", "Providing predictive cash flow analysis.", "Expanding into tax filing and payroll."],
+        "threats": ["Changes in accounting laws and standards.", "Data security concerns from small businesses.", "Free tiers from large competitors making it hard to convert free users."]
+      },
+      "major_points": ["FinTech", "SMB", "accounting", "AI", "automation", "bookkeeping", "SaaS"]
+    }
+  },
+  {
+    "query_id": "eval_gt_29",
+    "query": "A mobile app that provides guided meditation and mindfulness sessions for employees.",
+    "ground_truth": {
+      "competitors": ["Aura Health", "Mend"],
+      "funding_rounds": {
+        "main_startup": { "name": "CalmWork", "latest_round": { "series": "Seed", "amount_raised": 1900000, "currency": "USD", "date": "2023-04-18" } },
+        "competitor_1": { "name": "Aura Health", "latest_round": { "series": "Seed", "amount_raised": 8000000, "currency": "USD", "date": "2022-05-19" } },
+        "competitor_2": { "name": "Mend", "latest_round": { "series": "Series A", "amount_raised": 18000000, "currency": "USD", "date": "2023-02-14" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses growing corporate mental health and burnout.", "B2B model with clear ROI (reduced absenteeism).", "Easy to deploy at scale."],
+        "weaknesses": ["Low engagement if not mandated by employer.", "Hard to measure direct business impact.", "Competition from free consumer apps (Calm, Headspace)."],
+        "opportunities": ["Integrating with wearable devices for stress tracking.", "Offering different programs (e.g., stress, focus, sleep).", "Providing anonymized aggregate mental health data to HR."],
+        "threats": ["Economic downturns cutting 'soft' employee benefits.", "Privacy concerns over collecting mental health data.", "Perception as a 'nice-to-have' rather than essential tool."]
+      },
+      "major_points": ["HealthTech", "mental health", "B2B", "corporate wellness", "mindfulness", "meditation"]
+    }
+  },
+  {
+    "query_id": "eval_gt_30",
+    "query": "A company that 3D prints custom, lightweight prosthetics using scans from a smartphone.",
+    "ground_truth": {
+      "competitors": ["NeuroLeap", "QuantumSight AI"],
+      "funding_rounds": {
+        "main_startup": { "name": "PrintLimb", "latest_round": { "series": "Seed", "amount_raised": 5100000, "currency": "USD", "date": "2023-09-27" } },
+        "competitor_1": { "name": "NeuroLeap", "latest_round": { "series": "Series A", "amount_raised": 15000000, "currency": "USD", "date": "2021-06-30" } },
+        "competitor_2": { "name": "QuantumSight AI", "latest_round": { "series": "Series A", "amount_raised": 25000000, "currency": "USD", "date": "2021-10-27" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Dramatically lowers cost and increases accessibility of prosthetics.", "Empowers users with a personalized, perfect fit.", "Disrupts a traditional, high-margin medical device industry."],
+        "weaknesses": ["Regulatory hurdles for medical devices are immense.", "Material science and durability for daily use is a challenge.", "Requires high level of technical and medical expertise."],
+        "opportunities": ["Expanding to other custom medical devices (e.g., braces, implants).", "Creating a global network of scan-to-print hubs.", "Open-sourcing the software for community-driven improvements."],
+        "threats": ["Liability from device failure.", "Traditional medical device companies using patents to block innovation.", "3D printing technology improving faster than the application can keep up."]
+      },
+      "major_points": ["HealthTech", "3D printing", "prosthetics", "medical devices", "personalization", "AI for design"]
+    }
+  },
+  {
+    "query_id": "eval_gt_31",
+    "query": "A platform that allows users to invest in fractional shares of fine art and collectibles.",
+    "ground_truth": {
+      "competitors": ["WealthWise", "Capify"],
+      "funding_rounds": {
+        "main_startup": { "name": "ArtFraction", "latest_round": { "series": "Seed", "amount_raised": 4200000, "currency": "USD", "date": "2023-06-08" } },
+        "competitor_1": { "name": "WealthWise", "latest_round": { "series": "Seed", "amount_raised": 4000000, "currency": "USD", "date": "2021-08-10" } },
+        "competitor_2": { "name": "Capify", "latest_round": { "series": "Series A", "amount_raised": 35000000, "currency": "USD", "date": "2022-06-21" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Democratizes investment in a previously illiquid asset class.", "Creates a new, engaged investor community.", "High potential for marketplace fees."],
+        "weaknesses": ["Valuation and authenticity of assets is a major challenge.", "High regulatory uncertainty (is it a security or a collectible?).", "Illiquid secondary market for shareholders."],
+        "opportunities": ["Expanding to other assets (watches, wine, classic cars).", "Offering credit lines against fractional shares.", "Partnering with museums and galleries for exclusive drops."],
+        "threats": ["Economic downturns affecting art valuations.", "Fraud or forgeries on the platform.", "Regulatory crackdown classifying assets as securities."]
+      },
+      "major_points": ["FinTech", "alternative investments", "art", "collectibles", "fractional ownership", "marketplace"]
+    }
+  },
+  {
+    "query_id": "eval_gt_32",
+    "query": "A service that provides on-demand, mobile IV hydration and vitamin therapy.",
+    "ground_truth": {
+      "competitors": ["FemCare Diagnostics", "Postpartum Plus"],
+      "funding_rounds": {
+        "main_startup": { "name": "DripWell", "latest_round": { "series": "Seed", "amount_raised": 2700000, "currency": "USD", "date": "2023-11-15" } },
+        "competitor_1": { "name": "FemCare Diagnostics", "latest_round": { "series": "Series A", "amount_raised": 22000000, "currency": "USD", "date": "2022-11-22" } },
+        "competitor_2": { "name": "Postpartum Plus", "latest_round": { "series": "Seed", "amount_raised": 5100000, "currency": "USD", "date": "2022-08-01" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses the wellness and 'biohacking' trend.", "Convenient service for busy professionals.", "High-margin service with recurring revenue potential."],
+        "weaknesses": ["Requires medical professionals for administration.", "High liability and malpractice insurance costs.", "Competition from established wellness clinics and IV lounges."],
+        "opportunities": ["Partnering with hotels and corporations for employee wellness.", "Creating personalized IV 'cocktails' based on health data.", "Expanding to a membership model for regular users."],
+        "threats": ["Regulatory scrutiny on vitamin IV therapy.", "Negative health outcomes or incidents.", "Public perception as unnecessary medical treatment."]
+      },
+      "major_points": ["HealthTech", "wellness", "mobile service", "IV therapy", "biohacking", "B2C"]
+    }
+  },
+  {
+    "query_id": "eval_gt_33",
+    "query": "An AI-powered tool that generates and optimizes SQL database queries for developers.",
+    "ground_truth": {
+      "competitors": ["LexLogic", "ContractMind"],
+      "funding_rounds": {
+        "main_startup": { "name": "QueryGenius", "latest_round": { "series": "Seed", "amount_raised": 2800000, "currency": "USD", "date": "2023-05-20" } },
+        "competitor_1": { "name": "LexLogic", "latest_round": { "series": "Seed", "amount_raised": 5800000, "currency": "USD", "date": "2021-09-30" } },
+        "competitor_2": { "name": "ContractMind", "latest_round": { "series": "Seed", "amount_raised": 8200000, "currency": "USD", "date": "2021-10-11" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Solves a major pain point for developers (inefficient queries).", "Uses AI to provide performance optimizations.", "Integrates directly into developer workflows (IDE plugins)."],
+        "weaknesses": ["May not handle highly complex, niche queries well.", "Potential for generating incorrect or insecure queries.", "Requires large amounts of training data on diverse query structures."],
+        "opportunities": ["Expanding to NoSQL and other database languages.", "Offering a team collaboration and version control feature for queries.", "Integrating with data analytics platforms to provide query insights."],
+        "threats": ["Database providers (e.g., Oracle, Snowflake) building similar native features.", "Open-source AI models for code/text generation improving rapidly.", "Developer reluctance to trust AI-generated queries for critical systems."]
+      },
+      "major_points": ["AI for developers", "SQL optimization", "query performance", "developer tools", "productivity", "database management"]
+    }
+  },
+  {
+    "query_id": "eval_gt_34",
+    "query": "A marketplace for renting unused items from your closet, like formal wear or camping gear.",
+    "ground_truth": {
+      "competitors": ["CurateBox", "LogiStream"],
+      "funding_rounds": {
+        "main_startup": { "name": "ClosetShare", "latest_round": { "series": "Seed", "amount_raised": 1600000, "currency": "USD", "date": "2023-02-03" } },
+        "competitor_1": { "name": "CurateBox", "latest_round": { "series": "Seed", "amount_raised": 3500000, "currency": "USD", "date": "2021-10-12" } },
+        "competitor_2": { "name": "LogiStream", "latest_round": { "series": "Seed", "amount_raised": 5500000, "currency": "USD", "date": "2020-07-14" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Promotes a circular and sharing economy.", "Monetizes assets that would otherwise sit idle.", "Low capital intensity, asset-light model."],
+        "weaknesses": ["High potential for item damage or theft.", "Logistics of cleaning and shipping items is complex.", "Competition from giants like Poshmark and ThredUp."],
+        "opportunities": ["Integrating social features to build communities.", "Offering insurance for rented items.", "Expanding into specific niches (e.g., baby gear, sports equipment)."],
+        "threats": ["Users dealing directly after using the platform once.", "Negative reviews from bad experiences.", "Economic downturns reducing discretionary spending on rentals."]
+      },
+      "major_points": ["e-commerce", "sharing economy", "C2C", "marketplace", "rental", "sustainability"]
+    }
+  },
+  {
+    "query_id": "eval_gt_35",
+    "query": "A company that develops modular, self-assembling furniture designed for small urban apartments.",
+    "ground_truth": {
+      "competitors": ["RenoPlan", "Propify"],
+      "funding_rounds": {
+        "main_startup": { "name": "UrbanFlat", "latest_round": { "series": "Seed", "amount_raised": 4800000, "currency": "USD", "date": "2023-08-25" } },
+        "competitor_1": { "name": "RenoPlan", "latest_round": { "series": "Seed", "amount_raised": 3500000, "currency": "USD", "date": "2022-04-05" } },
+        "competitor_2": { "name": "Propify", "latest_round": { "series": "Seed", "amount_raised": 4000000, "currency": "USD", "date": "2020-10-20" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Solves a real problem for city dwellers with limited space.", "Flat-pack shipping model is efficient.", "Modern, minimalist aesthetic appeals to target demographic."],
+        "weaknesses": ["Competition from IKEA and other affordable furniture giants.", "Perception of lower quality than traditional furniture.", "Assembly required by the customer."],
+        "opportunities": ["Offering a 'trade-in' program for old furniture.", "Creating augmented reality (AR) app to visualize furniture in a room.", "Expanding into other small-space furniture categories."],
+        "threats": ["Supply chain disruptions for materials.", "Copycat designs from larger manufacturers.", "Economic downturns affecting home goods sales."]
+      },
+      "major_points": ["PropTech", "furniture", "D2C", "urban living", "modular design", "flat-pack"]
+    }
+  },
+  {
+    "query_id": "eval_gt_36",
+    "query": "A B2B platform that uses AI to optimize waste collection and recycling routes for cities.",
+    "ground_truth": {
+      "competitors": ["Circular Materials", "BatteryRevive"],
+      "funding_rounds": {
+        "main_startup": { "name": "WasteRoute AI", "latest_round": { "series": "Seed", "amount_raised": 7200000, "currency": "USD", "date": "2023-04-30" } },
+        "competitor_1": { "name": "Circular Materials", "latest_round": { "series": "Seed", "amount_raised": 11000000, "currency": "USD", "date": "2021-11-01" } },
+        "competitor_2": { "name": "BatteryRevive", "latest_round": { "series": "Seed", "amount_raised": 8800000, "currency": "USD", "date": "2020-11-15" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Saves cities significant fuel and labor costs.", "Reduces environmental impact of waste management.", "Data-driven approach is more efficient than fixed routes."],
+        "weaknesses": ["Long sales cycles with municipal governments.", "High competition from established waste management giants.", "Requires integration with legacy city systems."],
+        "opportunities": ["Expanding to provide data analytics on recycling rates.", "Offering a citizen-facing app for collection schedules.", "Integrating sensor data from public trash bins."],
+        "threats": ["Cities choosing to build their own in-house solution.", "Public-private partnership failures.", "Commodity price fluctuations for recycled materials."]
+      },
+      "major_points": ["CleanTech", "waste management", "smart city", "AI for logistics", "sustainability", "B2G"]
+    }
+  },
+  {
+    "query_id": "eval_gt_37",
+    "query": "A social network designed specifically for connecting neighborhood gardeners to share tips and trade produce.",
+    "ground_truth": {
+      "competitors": ["AgriGrow Tech", "Rooted Farms"],
+      "funding_rounds": {
+        "main_startup": { "name": "GardenConnect", "latest_round": { "series": "Seed", "amount_raised": 950000, "currency": "USD", "date": "2023-05-12" } },
+        "competitor_1": { "name": "AgriGrow Tech", "latest_round": { "series": "Series A", "amount_raised": 20000000, "currency": "USD", "date": "2021-04-12" } },
+        "competitor_2": { "name": "Rooted Farms", "latest_round": { "series": "Seed", "amount_raised": 25000000, "currency": "USD", "date": "2022-02-08" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Builds a strong local community.", "Encourages local food production and consumption.", "Low-cost, user-generated content model."],
+        "weaknesses": ["Difficult to monetize without disrupting community feel.", "Niche appeal, may not scale rapidly.", "Competition from general social networks like Facebook Groups."],
+        "opportunities": ["Partnering with seed and supply companies.", "Integrating a marketplace for trading produce.", "Organizing local farmers' markets and events."],
+        "threats": ["Users migrating to larger platforms.", "Low engagement if gardening is seasonal.", "Misinformation spreading about plant care."]
+      },
+      "major_points": ["AgriTech", "social network", "community", "local food", "gardening", "C2C"]
+    }
+  },
+  {
+    "query_id": "eval_gt_38",
+    "query": "A tool that automatically identifies and flags biased language in corporate communications.",
+    "ground_truth": {
+      "competitors": ["PrivacyGuard", "ContentModerate AI"],
+      "funding_rounds": {
+        "main_startup": { "name": "BiasCheck", "latest_round": { "series": "Seed", "amount_raised": 3200000, "currency": "USD", "date": "2023-09-19" } },
+        "competitor_1": { "name": "PrivacyGuard", "latest_round": { "series": "Seed", "amount_raised": 6500000, "currency": "USD", "date": "2021-01-30" } },
+        "competitor_2": { "name": "ContentModerate AI", "latest_round": { "series": "Seed", "amount_raised": 15000000, "currency": "USD", "date": "2020-12-01" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses a growing need for DEI and corporate responsibility.", "AI can detect subtle biases humans miss.", "Reduces legal and PR risks for companies."],
+        "weaknesses": ["Defining 'bias' is subjective and context-dependent.", "High false positive/negative rate is a risk.", "Resistance from employees who feel 'policed'."],
+        "opportunities": ["Expanding to analyze diversity in hiring and promotion.", "Offering training modules based on identified biases.", "Integrating with communication platforms (Slack, Outlook)."],
+        "threats": ["Generative AI making it harder to detect human-written bias.", "Cultural pushback against perceived 'wokeness'.", "Competition from internal HR/L&D departments."]
+      },
+      "major_points": ["HR Tech", "AI", "DEI", "corporate communications", "bias detection", "compliance"]
+    }
+  },
+  {
+    "query_id": "eval_gt_39",
+    "query": "A service that provides on-demand, mobile car detailing and washing.",
+    "ground_truth": {
+      "competitors": ["LogiStream", "ReturnLogic"],
+      "funding_rounds": {
+        "main_startup": { "name": "SparkleWash", "latest_round": { "series": "Seed", "amount_raised": 2100000, "currency": "USD", "date": "2023-07-05" } },
+        "competitor_1": { "name": "LogiStream", "latest_round": { "series": "Seed", "amount_raised": 5500000, "currency": "USD", "date": "2020-07-14" } },
+        "competitor_2": { "name": "ReturnLogic", "latest_round": { "series": "Seed", "amount_raised": 4800000, "currency": "USD", "date": "2021-08-14" } }
+      },
+      "swot_analysis": {
+        "strengths": ["High convenience for car owners.", "Lower overhead than traditional detailing shops.", "Mobile service can capture customers in new locations (e.g., office parks)."],
+        "weaknesses": ["Highly competitive local market.", "Logistics and scheduling complexity.", "Weather dependency."],
+        "opportunities": ["Offering subscription packages for regular cleaning.", "Partnering with businesses for fleet services.", "Expanding into other mobile auto services (e.g., oil change, scratch repair)."],
+        "threats": ["Economic downturns reducing discretionary spending.", "Rising cost of eco-friendly cleaning supplies.", "Competition from automated car washes."]
+      },
+      "major_points": ["automotive", "mobile service", "on-demand", "logistics", "car care", "D2C"]
+    }
+  },
+  {
+    "query_id": "eval_gt_41",
+    "query": "A B2B platform that provides AI-generated legal contracts for small businesses.",
+    "ground_truth": {
+      "competitors": ["ContractMind", "LexLogic"],
+      "funding_rounds": {
+        "main_startup": { "name": "ContractGen AI", "latest_round": { "series": "Seed", "amount_raised": 4900000, "currency": "USD", "date": "2023-08-15" } },
+        "competitor_1": { "name": "ContractMind", "latest_round": { "series": "Seed", "amount_raised": 8200000, "currency": "USD", "date": "2021-10-11" } },
+        "competitor_2": { "name": "LexLogic", "latest_round": { "series": "Seed", "amount_raised": 5800000, "currency": "USD", "date": "2022-02-15" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Drastically reduces time and legal fees for SMEs.", "Makes legal services accessible and affordable.", "Generates recurring revenue through subscriptions."],
+        "weaknesses": ["High liability for AI-generated legal errors.", "Potential lack of human nuance in complex cases.", "Navigating complex and varying legal regulations."],
+        "opportunities": ["Expanding to other contract types (e.g., employment, real estate).", "Integrating with accounting and CRM software.", "Offering a 'lawyer-as-a-service' upgrade path."],
+        "threats": ["Competition from established legal tech providers.", "Regulatory changes requiring constant model updates.", "Data privacy and confidentiality concerns."]
+      },
+      "major_points": ["legaltech", "AI", "contracts", "SME", "automation"]
+    }
+  },
+  {
+    "query_id": "eval_gt_42",
+    "query": "A service that uses autonomous robots to weed and harvest crops on large farms.",
+    "ground_truth": {
+      "competitors": ["AgriGrow Tech", "CropGuard Drones"],
+      "funding_rounds": {
+        "main_startup": { "name": "FarmBot AI", "latest_round": { "series": "Series A", "amount_raised": 32000000, "currency": "USD", "date": "2023-04-01" } },
+        "competitor_1": { "name": "AgriGrow Tech", "latest_round": { "series": "Series A", "amount_raised": 20000000, "currency": "USD", "date": "2021-04-12" } },
+        "competitor_2": { "name": "CropGuard Drones", "latest_round": { "series": "Seed", "amount_raised": 7900000, "currency": "USD", "date": "2020-07-30" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Reduces reliance on manual labor, which is scarce and expensive.", "Enables 24/7 operation and increased precision.", "Collects vast amounts of data for yield optimization."],
+        "weaknesses": ["Extremely high initial capital investment.", "Complexity of maintenance and repairs.", "Potential for crop damage from software or hardware errors.", "Job displacement in rural communities."],
+        "opportunities": ["Offering 'Robotics-as-a-Service' (RaaS) model.", "Expanding into other farm tasks (e.g., seeding, spraying).", "Selling data analytics on crop health and yield."],
+        "threats": ["High cost of capital for farmers to adopt.", "Competition from established agricultural machinery manufacturers.", "Technical failures leading to significant crop loss.", "Regulatory hurdles for autonomous operation in rural areas."]
+      },
+      "major_points": ["agritech", "robotics", "automation", "large-scale farming", "labor shortage"]
+    }
+  },
+  {
+    "query_id": "eval_gt_43",
+    "query": "A subscription box for science experiments and STEM projects for kids.",
+    "ground_truth": {
+      "competitors": ["StemQuest", "KidLingo"],
+      "funding_rounds": {
+        "main_startup": { "name": "SciSubBox", "latest_round": { "series": "Seed", "amount_raised": 2700000, "currency": "USD", "date": "2023-06-22" } },
+        "competitor_1": { "name": "StemQuest", "latest_round": { "series": "Seed", "amount_raised": 4500000, "currency": "USD", "date": "2022-04-11" } },
+        "competitor_2": { "name": "KidLingo", "latest_round": { "series": "Seed", "amount_raised": 5500000, "currency": "USD", "date": "2022-01-18" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Highly engaging and educational content.", "Encourages interest in STEM fields from a young age.", "Taps into parental desire for educational screen time."],
+        "weaknesses": ["High churn as children age out of the target demographic.", "Significant cost of sourcing and shipping diverse project materials.", "Safety concerns with certain experiments."],
+        "opportunities": ["Partnering with schools and educational institutions.", "Creating a digital community for kids to share projects.", "Expanding into other subject areas like coding and engineering."],
+        "threats": ["Parental concerns over screen time and device usage.", "Economic downturns affecting discretionary spending on educational products.", "Large toy and gaming companies could add STEM features to compete."]
+      },
+      "major_points": ["edtech", "STEM", "subscription box", "kids", "project-based learning", "hands-on activities"]
+    }
+  },
+  {
+    "query_id": "eval_gt_44",
+    "query": "A fintech that provides a 'buy now, pay later' (BNPL) service specifically for medical expenses.",
+    "ground_truth": {
+      "competitors": ["Capify", "FinFlow"],
+      "funding_rounds": {
+        "main_startup": { "name": "MediCredit", "latest_round": { "series": "Series A", "amount_raised": 26000000, "currency": "USD", "date": "2023-05-10" } },
+        "competitor_1": { "name": "Capify", "latest_round": { "series": "Series A", "amount_raised": 35000000, "currency": "USD", "date": "2022-06-21" } },
+        "competitor_2": { "name": "FinFlow", "latest_round": { "series": "Series A", "amount_raised": 18000000, "currency": "USD", "date": "2023-04-05" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Addresses a clear and urgent need for managing unexpected medical costs.", "High-margin revenue potential through provider fees.", "Partnerships with healthcare providers can create a closed-loop system."],
+        "weaknesses": ["High risk of customer default and debt accumulation.", "Subject to increasing regulatory scrutiny similar to payday lenders.", "Requires sophisticated underwriting models to be profitable."],
+        "opportunities": ["Expanding to cover elective and cosmetic procedures.", "Integrating with health insurance providers for direct billing.", "Offering financial literacy tools within the app."],
+        "threats": ["Stricter regulations on consumer credit and lending.", "Economic downturns increasing default rates.", "Competition from established BNPL players like Klarna and Affirm."]
+      },
+      "major_points": ["fintech", "BNPL", "medical finance", "healthcare", "consumer credit"]
+    }
+  },
+  {
+    "query_id": "eval_gt_45",
+    "query": "A platform that uses AI to discover and license promising new drug compounds from university labs.",
+    "ground_truth": {
+      "competitors": ["BioDiscover AI", "SynthoLabs"],
+      "funding_rounds": {
+        "main_startup": { "name": "LabLink AI", "latest_round": { "series": "Seed", "amount_raised": 11500000, "currency": "USD", "date": "2023-07-30" } },
+        "competitor_1": { "name": "BioDiscover AI", "latest_round": { "series": "Series A", "amount_raised": 45000000, "currency": "USD", "date": "2022-03-28" } },
+        "competitor_2": { "name": "SynthoLabs", "latest_round": { "series": "Seed", "amount_raised": 8500000, "currency": "USD", "date": "2021-09-14" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Uncovers hidden value in early-stage research.", "Dramatically accelerates the initial phase of drug discovery.", "Creates a strong pipeline of intellectual property."],
+        "weaknesses": ["Extremely high failure rate of drug candidates.", "Very long and expensive development timeline.", "Complex negotiations over intellectual property with universities."],
+        "opportunities": ["Expanding AI models to predict compound success.", "Partnering with large pharmaceutical companies for clinical trials and marketing.", "Using the platform for materials science discovery beyond drugs."],
+        "threats": ["Changes in university funding and intellectual property policies.", "Competition from the internal R&D labs of large pharmaceutical companies.", "Ethical and regulatory concerns around AI-driven discovery."]
+      },
+      "major_points": ["biotech", "AI", "drug discovery", "licensing", "university tech transfer"]
+    }
+  },
+  {
+    "query_id": "eval_gt_46",
+    "query": "A marketplace for renting high-end camera gear and drones for photographers.",
+    "ground_truth": {
+      "competitors": ["TrendSpotter AI", "CropGuard Drones"],
+      "funding_rounds": {
+        "main_startup": { "name": "LensRent", "latest_round": { "series": "Seed", "amount_raised": 3700000, "currency": "USD", "date": "2023-02-09" } },
+        "competitor_1": { "name": "TrendSpotter AI", "latest_round": { "series": "Series A", "amount_raised": 16000000, "currency": "USD", "date": "2021-11-18" } },
+        "competitor_2": { "name": "CropGuard Drones", "latest_round": { "series": "Seed", "amount_raised": 7900000, "currency": "USD", "date": "2020-07-30" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Provides access to expensive gear without a large capital outlay.", "Caters to the gig economy and project-based work.", "High-value items create a strong rental business case."],
+        "weaknesses": ["High risk of expensive equipment being damaged or stolen.", "Complex logistics of cleaning, maintenance, and shipping gear.", "High insurance and security costs."],
+        "opportunities": ["Offering tutorials, workshops, and guided photo tours.", "Expanding into professional audio equipment rental.", "Creating a community platform for photographers to share tips and collaborate."],
+        "threats": ["Competition from established rental houses.", "Decline in professional photography due to high-quality smartphone cameras.", "New technology making high-end gear less essential for professional results."]
+      },
+      "major_points": ["e-commerce", "rental", "photography", "drones", "gig economy"]
+    }
+  },
+  {
+    "query_id": "eval_gt_47",
+    "query": "A B2B platform that helps companies manage their remote and hybrid workforce.",
+    "ground_truth": {
+      "competitors": ["Upskill L&D", "Assessify"],
+      "funding_rounds": {
+        "main_startup": { "name": "TeamSync", "latest_round": { "series": "Series A", "amount_raised": 28000000, "currency": "USD", "date": "2023-03-22" } },
+        "competitor_1": { "name": "Upskill L&D", "latest_round": { "series": "Series A", "amount_raised": 21000000, "currency": "USD", "date": "2022-06-07" } },
+        "competitor_2": { "name": "Assessify", "latest_round": { "series": "Seed", "amount_raised": 7800000, "currency": "USD", "date": "2022-02-14" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Solves a major management challenge in the post-pandemic era.", "Integrates with other key business tools (HRIS, payroll).", "Provides clear data on productivity, engagement, and collaboration."],
+        "weaknesses": ["Market saturation with HR and collaboration tools.", "Potential for employee pushback over perceived surveillance.", "Data privacy and security concerns with employee data."],
+        "opportunities": ["Expanding into global payroll and benefits administration.", "Offering industry-specific modules (e.g., for retail, manufacturing).", "Providing advanced analytics for predicting attrition and optimizing team structures."],
+        "threats": ["Economic downturns leading to layoffs and reduced HR spend.", "Competition from giants like Microsoft and Google entering the space.", "Mandates for return-to-office reducing the need for hybrid solutions."]
+      },
+      "major_points": ["HR tech", "remote work", "hybrid work", "workforce management", "SaaS"]
+    }
+  },
+  {
+    "query_id": "eval_gt_48",
+    "query": "A company that develops biodegradable, plant-based coffee pods for single-serve machines.",
+    "ground_truth": {
+      "competitors": ["Mycelium Foods", "DairyFree Labs"],
+      "funding_rounds": {
+        "main_startup": { "name": "EcoPod", "latest_round": { "series": "Seed", "amount_raised": 6800000, "currency": "USD", "date": "2023-09-25" } },
+        "competitor_1": { "name": "Mycelium Foods", "latest_round": { "series": "Series A", "amount_raised": 35000000, "currency": "USD", "date": "2022-06-14" } },
+        "competitor_2": { "name": "DairyFree Labs", "latest_round": { "series": "Series A", "amount_raised": 40000000, "currency": "USD", "date": "2023-01-17" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Taps into the convenience of single-serve coffee machines.", "Offers a sustainable solution to the problem of plastic pod waste.", "Positions as a premium, eco-friendly alternative."],
+        "weaknesses": ["Intense competition from established coffee giants.", "Requires partnerships with machine manufacturers to gain distribution.", "Consumer acceptance of taste and quality is a major hurdle."],
+        "opportunities": ["Developing new and exotic flavor varieties.", "Offering a subscription model for home and office delivery.", "Expanding the technology to other compostable beverage formats."],
+        "threats": ["Volatility in the price of raw coffee beans.", "Coffee machine manufacturers creating their own branded, compatible pods.", "Consumer preference shifting towards fresh-ground coffee or other alternatives."]
+      },
+      "major_points": ["foodtech", "CPG", "sustainable packaging", "coffee", "convenience"]
+    }
+  },
+  {
+    "query_id": "eval_gt_49",
+    "query": "A platform that uses AI to match patients with mental health therapists based on specific needs and insurance.",
+    "ground_truth": {
+      "competitors": ["Aura Health", "Mend"],
+      "funding_rounds": {
+        "main_startup": { "name": "TherapyMatch AI", "latest_round": { "series": "Series A", "amount_raised": 19000000, "currency": "USD", "date": "2023-01-05" } },
+        "competitor_1": { "name": "Aura Health", "latest_round": { "series": "Seed", "amount_raised": 8000000, "currency": "USD", "date": "2022-05-19" } },
+        "competitor_2": { "name": "Mend", "latest_round": { "series": "Series A", "amount_raised": 18000000, "currency": "USD", "date": "2023-02-14" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Improves the patient-therapist matching process, increasing fit.", "Reduces the administrative burden for therapists.", "Expands access to mental healthcare for underserved areas."],
+        "weaknesses": ["Significant data privacy and security concerns (HIPAA).", "Potential for algorithmic bias in matching.", "Resistance from established therapists who distrust the platform."],
+        "opportunities": ["Expanding globally to different languages and cultures.", "Offering specialized matching for specific conditions (e.g., trauma, addiction).", "Building a B2B model for employers to provide mental health benefits."],
+        "threats": ["Strict regulations regarding health data and telehealth.", "Competition from large telehealth platforms adding matching features.", "Insurance reimbursement challenges for platform-based therapy."]
+      },
+      "major_points": ["healthtech", "mental health", "AI", "teletherapy", "patient matching"]
+    }
+  },
+  {
+    "query_id": "eval_gt_50",
+    "query": "A service that provides on-demand, mobile notary and legal document signing for businesses and individuals.",
+    "ground_truth": {
+      "competitors": ["LexLogic", "ContractMind"],
+      "funding_rounds": {
+        "main_startup": { "name": "NotaryNow", "latest_round": { "series": "Seed", "amount_raised": 5200000, "currency": "USD", "date": "2023-04-18" } },
+        "competitor_1": { "name": "LexLogic", "latest_round": { "series": "Seed", "amount_raised": 5800000, "currency": "USD", "date": "2022-02-15" } },
+        "competitor_2": { "name": "ContractMind", "latest_round": { "series": "Seed", "amount_raised": 8200000, "currency": "USD", "date": "2021-10-11" } }
+      },
+      "swot_analysis": {
+        "strengths": ["Offers extreme convenience for a traditionally inconvenient process.", "Mobile-first approach meets modern user expectations.", "Clear and scalable revenue model per transaction."],
+        "weaknesses": ["Navigating a complex patchwork of state and national regulations.", "High liability and risk of fraud.", "Significant security and verification requirements."],
+        "opportunities": ["Integrating with real estate platforms for closings.", "Providing an API for other legal and fintech services.", "Expanding into other legal document services (wills, powers of attorney)."],
+        "threats": ["Competition from established legal tech companies.", "Changes in electronic signature and notary laws.", "Potential for security breaches and deepfake technology."]
+      },
+      "major_points": ["legaltech", "notary", "mobile services", "e-signature", "B2B", "B2C"]
+    }
+  }
+]

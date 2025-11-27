@@ -1,0 +1,182 @@
+[
+  {
+    "article_id": "news_001",
+    "title": "The Future of FinTech is Cross-Border and AI-Driven",
+    "source": "TechCrunch",
+    "publication_date": "2023-10-15",
+    "content_snippet": "As global commerce becomes increasingly digital, the demand for seamless international payment solutions is skyrocketing. Startups like FinFlow are leading the charge, using AI to not just process payments but also to manage currency risk, a major pain point for SMEs. This trend is moving beyond simple transfers to a more holistic financial management platform.",
+    "mentioned_startups": ["startup_001"],
+    "related_tags": ["FinTech", "AI", "Global Payments", "Market Trend"]
+  },
+  {
+    "article_id": "news_002",
+    "title": "Digital Health Investment Hits Record High in 2023",
+    "source": "MobiHealthNews",
+    "publication_date": "2023-11-20",
+    "content_snippet": "Investment in the digital health sector continues its upward trajectory, with a particular focus on specialized areas like FemTech and digital therapeutics. Companies such as FemCare Diagnostics and NeuroLeap have closed significant Series A rounds, signaling strong investor confidence in solutions that address specific, underserved patient populations.",
+    "mentioned_startups": ["startup_004", "startup_005"],
+    "related_tags": ["HealthTech", "FemTech", "Digital Therapeutics", "Funding"]
+  },
+  {
+    "article_id": "news_003",
+    "title": "New Data Privacy Regulations Pose Challenge for AI Startups",
+    "source": "The Register",
+    "publication_date": "2023-09-05",
+    "content_snippet": "A wave of new data privacy regulations across the globe is creating a complex compliance landscape for companies, especially those in the AI space. Startups that rely on large datasets, like Predictive Core and SynthoLabs, must now navigate a thicket of rules regarding data sourcing and user consent. This has created a new market for compliance management platforms.",
+    "mentioned_startups": ["startup_011", "startup_012"],
+    "related_tags": ["Cybersecurity", "Data Privacy", "AI", "Regulation"]
+  },
+  {
+    "article_id": "news_004",
+    "title": "ClimateTech Gets a Boost from Government Incentives",
+    "source": "Greentech Media",
+    "publication_date": "2023-08-22",
+    "content_snippet": "Government initiatives worldwide are pouring billions into climate technology, accelerating innovation in carbon capture and sustainable agriculture. Firms like CarbonCapture Solutions and AgriGrow Tech are well-positioned to benefit from these grants and tax credits, which are designed to scale up technologies that are critical for meeting global climate goals.",
+    "mentioned_startups": ["startup_013", "startup_014"],
+    "related_tags": ["ClimateTech", "CleanTech", "Government Policy", "Market Trend"]
+  },
+  {
+    "article_id": "news_005",
+    "title": "The Rise of the Autonomous Enterprise",
+    "source": "MIT Technology Review",
+    "publication_date": "2023-12-01",
+    "content_snippet": "The next frontier in enterprise software is autonomy. AI is no longer just for analytics; it's for execution. In cybersecurity, platforms like CyberShield AI are automating threat response, while in manufacturing, QuantumSight AI's systems are automating quality control. This shift promises to dramatically increase operational efficiency across industries.",
+    "mentioned_startups": ["startup_016", "startup_010"],
+    "related_tags": ["AI", "Cybersecurity", "Automation", "Market Trend"]
+  },
+  {
+    "article_id": "news_006",
+    "title": "Is the Metaverse the Future of Shopping?",
+    "source": "Vogue Business",
+    "publication_date": "2023-07-18",
+    "content_snippet": "While the hype around the metaverse has cooled, a new wave of more practical applications is emerging. Platforms like ShopSphere are enabling brands to create immersive shopping experiences that blend entertainment and commerce. Early adopters in fashion and beauty are finding success by hosting virtual events and selling digital goods.",
+    "mentioned_startups": ["startup_019"],
+    "related_tags": ["E-commerce", "Metaverse", "RetailTech"]
+  },
+  {
+    "article_id": "news_007",
+    "title": "SpaceTech Race Heats Up Beyond Satellite Internet",
+    "source": "SpaceNews",
+    "publication_date": "2023-10-30",
+    "content_snippet": "While companies like Orbital Comms are making headlines with their satellite constellations, a new generation of SpaceTech startups is aiming even higher. Ventures such as AstroForge are tackling the monumental challenge of asteroid mining, a long-term bet that could fundamentally change resource economics for Earth and for space-based industry.",
+    "mentioned_startups": ["startup_028", "startup_029"],
+    "related_tags": ["SpaceTech", "Satellite Internet", "Asteroid Mining"]
+  },
+  {
+    "article_id": "news_008",
+    "title": "The Alternative Protein Market is Getting Crowded",
+    "source": "Food Navigator",
+    "publication_date": "2023-06-12",
+    "content_snippet": "The plant-based meat market is maturing, but innovation is shifting to new frontiers. Fermentation-based proteins from mycelium, pioneered by companies like Mycelium Foods, and lab-grown meat from firms like Cultured Meats, are attracting massive investment. The race is now on to achieve price parity and scale production.",
+    "mentioned_startups": ["startup_025", "startup_027"],
+    "related_tags": ["FoodTech", "Alternative Protein", "Market Analysis"]
+  },
+  {
+    "article_id": "news_009",
+    "title": "Banking-as-a-Service (BaaS) Becomes the New Infrastructure for Tech",
+    "source": "Finextra",
+    "publication_date": "2023-11-28",
+    "content_snippet": "The lines between tech and finance are blurring as more non-financial companies embed financial products into their core offerings. Platforms like EmbedPay are leading this charge, providing the regulatory and technical plumbing that allows SaaS companies and marketplaces to become banks. This BaaS trend is creating new revenue streams and increasing customer lock-in across a variety of sectors.",
+    "mentioned_startups": ["startup_031"],
+    "related_tags": ["FinTech", "BaaS", "Embedded Finance", "Market Trend"]
+  },
+  {
+    "article_id": "news_010",
+    "title": "The Mental Health Tech Boom Expands to Niche Demographics",
+    "source": "Forbes",
+    "publication_date": "2023-10-02",
+    "content_snippet": "After years of general-purpose wellness apps, the mental health technology sector is seeing a surge in startups targeting specific demographics. Companies like Mend, focusing on men, and Postpartum Plus, for new mothers, are securing significant funding by offering tailored support and community. This hyper-personalization is proving to be a winning strategy for engaging users who feel underserved by one-size-fits-all solutions.",
+    "mentioned_startups": ["startup_034", "startup_036"],
+    "related_tags": ["HealthTech", "Mental Health", "Market Analysis", "Funding"]
+  },
+  {
+    "article_id": "news_011",
+    "title": "Generative AI Moves Beyond Text to Automate Business Processes",
+    "source": "Wired",
+    "publication_date": "2023-12-05",
+    "content_snippet": "While chatbots have captured the public's imagination, a quieter revolution is happening in the enterprise. Generative AI is now being applied to automate complex business tasks. Platforms like GenerativeAds are creating and optimizing marketing campaigns, while others are developing tools for code generation and legal research. This next wave of AI is about boosting productivity, not just creativity.",
+    "mentioned_startups": ["startup_040", "startup_042"],
+    "related_tags": ["AI", "Generative AI", "Automation", "Market Trend"]
+  },
+  {
+    "article_id": "news_012",
+    "title": "The Rise of RegTech: Navigating the Compliance Maze with AI",
+    "source": "The Economist",
+    "publication_date": "2023-09-18",
+    "content_snippet": "As global regulations become more complex, financial institutions are turning to artificial intelligence to keep up. The RegTech sector is booming, with companies like Regulix offering AI-powered platforms that can monitor transactions, flag risks, and automate reporting. This shift is turning compliance from a reactive cost center into a proactive, data-driven function.",
+    "mentioned_startups": ["startup_033"],
+    "related_tags": ["FinTech", "RegTech", "AI", "Compliance"]
+  },
+  {
+    "article_id": "news_013",
+    "title": "In-Space Manufacturing is No Longer Science Fiction",
+    "source": "SpaceNews",
+    "publication_date": "2023-11-15",
+    "content_snippet": "The business of space is evolving from just launching satellites to building and servicing them in orbit. Companies like Orbital Fab are pioneering in-space refueling and manufacturing, a critical step for building a sustainable space economy. This capability could dramatically extend the life of existing satellites and enable the construction of massive space structures that are impossible to launch from Earth.",
+    "mentioned_startups": ["startup_058"],
+    "related_tags": ["SpaceTech", "In-Space Manufacturing", "Innovation"]
+  },
+  {
+    "article_id": "news_014",
+    "title": "Precision Fermentation is the Next Frontier in Food Tech",
+    "source": "TechCrunch",
+    "publication_date": "2023-08-29",
+    "content_snippet": "Beyond plant-based meats, a new technology called precision fermentation is poised to disrupt the food industry. Startups like DairyFree Labs are using genetically modified yeast to produce real animal proteins like casein and whey without the cow. This allows for the creation of real dairy products—cheese that melts, yogurt that's creamy—that are vegan and have a fraction of the environmental impact.",
+    "mentioned_startups": ["startup_056"],
+    "related_tags": ["FoodTech", "Precision Fermentation", "Alternative Protein", "Innovation"]
+  },
+  {
+    "article_id": "news_015",
+    "title": "The Unbearable Complexity of Crypto Taxes Creates a Niche for Specialists",
+    "source": "Coindesk",
+    "publication_date": "2023-04-10",
+    "content_snippet": "As tax authorities worldwide crack down on cryptocurrency gains, investors are scrambling to find tools that can simplify the reporting process. The challenge of tracking transactions across dozens of wallets, exchanges, and DeFi protocols has created a booming market for specialized tax software. Platforms like CryptoTaxify are emerging as essential tools for anyone serious about their crypto investments, automating the tedious process of calculating capital gains and generating audit-ready reports.",
+    "mentioned_startups": ["startup_061"],
+    "related_tags": ["FinTech", "Crypto", "Tax Software", "Market Analysis"]
+  },
+  {
+    "article_id": "news_016",
+    "title": "Value-Based Care Drives Investment in Chronic Disease Management Platforms",
+    "source": "MobiHealthNews",
+    "publication_date": "2023-09-25",
+    "content_snippet": "The healthcare industry's shift towards value-based care is creating significant opportunities for digital health companies that can reduce costs and improve outcomes. Platforms that manage chronic diseases are at the forefront of this trend. Companies like ChronicCare Co. are partnering with health insurers to provide proactive, remote monitoring and coaching for patients with conditions like diabetes and hypertension, aiming to prevent costly hospitalizations and demonstrate a clear ROI.",
+    "mentioned_startups": ["startup_064"],
+    "related_tags": ["HealthTech", "Chronic Care", "Value-Based Care", "Funding"]
+  },
+  {
+    "article_id": "news_017",
+    "title": "The Rise of the 'AI Co-Pilot' in the Enterprise Workplace",
+    "source": "The Verge",
+    "publication_date": "2023-11-30",
+    "content_snippet": "The next wave of enterprise AI isn't about replacing workers, but augmenting them. A new category of 'AI Co-Pilot' tools is emerging, designed to integrate seamlessly into existing workflows. SalesAI Copilot, for instance, acts as an intelligent assistant for sales teams, automating CRM updates and drafting emails. This trend of AI as a helpful sidekick is gaining traction across sales, legal, and marketing departments, promising to boost productivity without wholesale job displacement.",
+    "mentioned_startups": ["startup_070"],
+    "related_tags": ["AI", "Sales Tech", "Workplace Automation", "Market Trend"]
+  },
+  {
+    "article_id": "news_018",
+    "title": "Beyond Solar Panels: AI Optimizes Renewable Energy from the Ground Up",
+    "source": "Greentech Media",
+    "publication_date": "2023-08-15",
+    "content_snippet": "While installing more solar panels is critical, maximizing the efficiency of existing assets is equally important for the energy transition. A new generation of startups is using AI and IoT to do just that. Companies like SolarSense are placing sensors directly on solar panels to monitor performance in real-time, using AI to diagnose faults and predict maintenance needs. This 'smart solar' approach is helping energy farms squeeze more power out of their infrastructure, improving the economics of renewable energy.",
+    "mentioned_startups": ["startup_073"],
+    "related_tags": ["ClimateTech", "AI", "Solar Energy", "IoT"]
+  },
+  {
+    "article_id": "news_019",
+    "title": "Live-Stream Commerce is Poised to Explode in Western Markets",
+    "source": "TechCrunch",
+    "publication_date": "2023-10-18",
+    "content_snippet": "Having taken Asia by storm, live-stream commerce is finally gaining serious traction in Europe and North America. The format, which blends entertainment with instant purchasing, is proving to be a powerful tool for brands to engage with customers and drive sales. Platforms like StreamLive are making the technology accessible, providing brands with an end-to-end solution for hosting shoppable events. Analysts predict this sector will see massive growth as it becomes a standard part of the e-commerce playbook.",
+    "mentioned_startups": ["startup_079"],
+    "related_tags": ["E-commerce", "Live Streaming", "Social Commerce", "Market Trend"]
+  },
+  {
+    "article_id": "news_020",
+    "title": "The Final Frontier: Startups Race to Build a Lunar Economy",
+    "source": "SpaceNews",
+    "publication_date": "2023-12-12",
+    "content_snippet": "With NASA's Artemis program paving the way, a new ecosystem of startups is emerging to support a sustained human presence on the Moon. This 'lunar gold rush' is focused on providing critical services like payload delivery, resource prospecting, and power generation. Companies like LunarLogistics are developing robotic landers and rovers to act as the UPS of the Moon, while others are working on everything from 3D printing with lunar soil to extracting water ice. The goal is to build a commercial infrastructure that can support science, exploration, and eventually, industry on the lunar surface.",
+    "mentioned_startups": ["startup_089"],
+    "related_tags": ["SpaceTech", "Lunar Economy", "Robotics", "Innovation"]
+  }
+]
