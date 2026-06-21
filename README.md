@@ -118,5 +118,5 @@ The agent includes an intelligent fallback mechanism that:
 The modular architecture allows for easy extension:
 - Add new tools in the `tools/` directory
 - Modify the reasoning loop in `core/reasoning_loop.py`
-- Add new visualization types in `utils/visualization.py`
+- Add new visualization types in `utils/visualization.py`   
 - Configure model parameters in `configs/model_config.yaml`
